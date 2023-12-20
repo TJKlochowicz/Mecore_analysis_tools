@@ -98,4 +98,13 @@ The **data_cleaning.py** file allows to verify hypotheses about the behaviour of
 
 ### *Hypothesis Finder()* has the following functions:
 
-*
+*conjunctive_check(X, y, properties: list, subsets=False, printing=True)* takes data frame (X) and a label (y) from the same database and a list of properties. Returns the hypotheses which arise from the conjunction of those properties. If subsets = True, then returns all the hypotheses from any combination of those properties.
+
+*forest_based_discovery(X, y, limit :int=MAXIMAL_NUMBER_OF_PROPERTIES)* takes data frame (X) and a label (y) from the same database. For each subset of properties in X of size smaller than *limit* returns all the hypotheses that allow to predict values of more than *LIMIT OF SAMPLES* predicates in y. 
+
+*find_semantic_relations(X)* Retuns the list of all the implications between semantic properties in X. i.e. with properties as keys and properties they imply as values e.g. "{('Certainty_always', 0)": [["Uncertainty_incompatible","0"]] ...}
+
+*df = eliminate_redundant_hypotheses(hypotheses, implications: dict)* takes a set of hypotheses (output of *forest_based_discovery*) and a list of implications (output of *find_semantic_relations*) and eliminate hypotheses which are redundant according to the implications. WARNIING: only order matters! The eliminated hypotheses may provide better explanation then those which remain. 
+
+*df=eliminate_order_significance(hypotheses)* takes a set of hypotheses (output of *forest_based_discovery*) and returns a list of hypotheses, which 
+

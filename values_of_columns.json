@@ -28,8 +28,7 @@
         "0",
         "0*",
         "1",
-        "undecided",
-        "N/A but maybe 1"
+        "undecided"
     ],
     "likelihood": [
         "always",
@@ -97,8 +96,8 @@
         "compatble"
     ],
     "focus sensitivity": [
-        1,
-        0
+        "1",
+        "0"
     ],
     "gradability wrt decl": [
         "0",
