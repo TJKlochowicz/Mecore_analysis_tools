@@ -1,0 +1,226 @@
+{
+    "veridicality": [
+        "neither",
+        "veridical",
+        "typically",
+        "anti-veridical"
+    ],
+    "conjoined with negation": [
+        "neither",
+        "contradictory",
+        "redundant"
+    ],
+    "conjoined with complement": [
+        "neither",
+        "redundant",
+        "typically redundant",
+        "contradictory"
+    ],
+    "projection through negation": [
+        "neither",
+        "always projective",
+        "projective",
+        "projective *",
+        "typically projective",
+        "reversal"
+    ],
+    "neg-raising": [
+        "0",
+        "0*",
+        "1",
+        "undecided",
+        "N/A but maybe 1"
+    ],
+    "likelihood": [
+        "always",
+        "compatible",
+        "typically implies",
+        "compatibile",
+        "incompatible"
+    ],
+    "unlikelihood": [
+        "compatible",
+        "incompatible",
+        "compatibile",
+        "incompatibile",
+        "typically",
+        "always"
+    ],
+    "equal likelihood": [
+        "compatible",
+        "incompatible",
+        "compatibile",
+        "compatble"
+    ],
+    "certainty": [
+        "compatible",
+        "always",
+        "incompatible",
+        "compatibile",
+        "incompatibile",
+        "typically implies"
+    ],
+    "counter-certainty": [
+        "incompatible",
+        "compatible",
+        "compatibile",
+        "typically incompatible",
+        "incomatible"
+    ],
+    "uncertainty": [
+        "compatible",
+        "incompatible",
+        "always",
+        "compatibile",
+        "typically",
+        "typically imples",
+        "typically implies",
+        "compatble"
+    ],
+    "preference": [
+        "compatible",
+        "always",
+        "compatibile",
+        "incompatible",
+        "typically implies"
+    ],
+    "opposition": [
+        "compatible",
+        "incompatible",
+        "compatibile",
+        "always"
+    ],
+    "indifference": [
+        "compatible",
+        "incompatible",
+        "compatibile",
+        "compatble"
+    ],
+    "focus sensitivity": [
+        1,
+        0
+    ],
+    "gradability wrt decl": [
+        "0",
+        "1",
+        "0*",
+        "1*"
+    ],
+    "ignorance/belief wrt int": [
+        "belief",
+        "neither",
+        "ignorance",
+        "typically ignorance",
+        "always belief*",
+        "typically belief",
+        "belief*",
+        "N/A*"
+    ],
+    "gradability wrt int": [
+        "0",
+        "1",
+        "1*",
+        "0*"
+    ],
+    "Q-to-P veridicality": [
+        "1",
+        "0",
+        "1*",
+        "typically 1",
+        "0*"
+    ],
+    "Q-to-P distributivity": [
+        "1",
+        "0",
+        "1*",
+        "0*"
+    ],
+    "P-to-Q distributivity": [
+        "1",
+        "1*",
+        "0*",
+        "typically 1*",
+        "0"
+    ],
+    "P-to-Q distributivity.1": [
+        "1",
+        "0",
+        "1*"
+    ],
+    "finite declarative clause: subjunctive": [
+        "0",
+        "1",
+        "0*"
+    ],
+    "Finite d-linked constituent interrogative clause": [
+        "1",
+        "0",
+        "1*",
+        "0*"
+    ],
+    "finite non-d-linked constituent interrogative clause": [
+        "1",
+        "0",
+        "1*",
+        "0*"
+    ],
+    "finite polar interrogative clause": [
+        "0",
+        "1",
+        "1*",
+        "0*"
+    ],
+    "finite alternative interrogative clause": [
+        "0",
+        "1",
+        "1*",
+        "0*"
+    ],
+    "Finite non-d-linked constituent interrogative clause with main clause syntax": [
+        "0",
+        "1",
+        "0*",
+        "1*"
+    ],
+    "non-finite declarative clause without subject": [
+        "0",
+        "1",
+        "0*"
+    ],
+    "non-finite d-linked constituent interrogative without subj": [
+        "0",
+        "1",
+        "0*",
+        "1*"
+    ],
+    "non-finite non-d-linked constituent interrogative without subj": [
+        "0",
+        "1",
+        "0*",
+        "1*"
+    ],
+    "non-finite polar int without subj": [
+        "0",
+        "1",
+        "0*",
+        "1*"
+    ],
+    "non-finite alt int without subj": [
+        "0",
+        "0*",
+        "1",
+        "1*"
+    ],
+    "concealed q": [
+        "0",
+        "1",
+        "1*",
+        "0*"
+    ],
+    "P-to-Q distributivity.2": [
+        "0",
+        "1",
+        "0*",
+        "1*"
+    ]
+}
