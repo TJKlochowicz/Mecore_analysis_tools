@@ -482,7 +482,7 @@ class HypothesesFinder:
                 if i in end_node:
                     output = paths.pop(np.argwhere(i == np.array(end_node))[0][0])
                     yield output
-
+                    
             else:
                 
                 # Origin and end nodes

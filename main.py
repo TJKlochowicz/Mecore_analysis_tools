@@ -23,15 +23,15 @@ from data_cleaning import DataCleaner, AutomaticCleaner, HypothesesFinder, DataE
 #Import database to a pandas database. 
 df_1 = pd.read_csv('csv_files_070823/PolishTablePol001V0.csv')
 
-#Create the values_of_columns.json you can edit the file to tune the cleaner to your needs.
-ext = ValuesExtractor()
-vals = ext.values_from_all_columns(df_1)
-with open("values_of_columns.json", "w") as file:
-    json.dump(vals, file)
+# #Create the values_of_columns.json you can edit the file to tune the cleaner to your needs.
+# ext = ValuesExtractor()
+# vals = ext.values_from_all_columns(df_1)
+# with open("values_of_columns.json", "w") as file:
+#     json.dump(vals, file)
 
-# #Clean the database WARNING: Cleaning may take some time to run, as it checks each cell for typos. 
-# cleaner = AutomaticCleaner()
-# df_1 = cleaner.clean(df_1)
+#Clean the database WARNING: Cleaning may take some time to run, as it checks each cell for typos. 
+cleaner = AutomaticCleaner()
+df_1 = cleaner.clean(df_1)
 
 # #Save the cleaned database
 # df_1.to_csv("cleaned_df.csv", index=False)
