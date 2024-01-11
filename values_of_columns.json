@@ -112,8 +112,7 @@
         "typically ignorance",
         "always belief*",
         "typically belief",
-        "belief*",
-        "N/A*"
+        "belief*"
     ],
     "gradability wrt int": [
         "0",
