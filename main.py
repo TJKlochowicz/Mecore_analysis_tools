@@ -21,7 +21,7 @@ from sklearn.tree import DecisionTreeClassifier
 from data_cleaning import DataCleaner, AutomaticCleaner, HypothesesFinder, DataExtractor, ValuesExtractor
 
 #Import database to a pandas database. 
-df_1 = pd.read_csv('csv_files_070823/PolishTablePol001V0.csv')
+df_1 = pd.read_csv('csv_files_120124/PolishTablePol001V0.csv')
 
 # #Create the values_of_columns.json you can edit the file to tune the cleaner to your needs.
 # ext = ValuesExtractor()
