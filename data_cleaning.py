@@ -450,7 +450,10 @@ class DataExtractor:
                 for j in range(X.shape[1]): #iterate over columns
                     try:
                         if X.iat[i,j].split(' ')[0] == 'typically':
-                            X.iat[i,j] = 'neither'
+                            if len(X.iat[i,j].split(' ')) > 1:
+                                X.iat[i,j] = 'neither'
+                            else:
+                                X.iat[i,j] = 'compatible'
                     except AttributeError:
                         pass
         X = pd.get_dummies(X)
