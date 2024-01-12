@@ -501,7 +501,7 @@ class HypothesesFinder:
 
     # Returns branches of a tree in textual form: list of lists of pairs (property, threashold) ending with a pair (label, number of samples.) e.g. 
     #       [[('Complement projection/reversion through negation_neither', '> 0.5'),('Preference_incompatible', '<= 0.5'), ('responsive', 13)], ...]
-    def retreive_text_branches(self, model, X):
+    def retreive_text_branches(self, model, X, exception_size :int = 0):
         self.n_nodes = model.tree_.node_count
         self.children_left = model.tree_.children_left
         self.children_right = model.tree_.children_right
@@ -512,32 +512,62 @@ class HypothesesFinder:
         all_branches = list(self.retrieve_branches(self.n_nodes, self.children_left, self.children_right))
         class_names = model.classes_
         text_branches = []
-        for branch in all_branches:
-            #Only consider pure leaves
-            if model.tree_.impurity[branch[-1]] == 0.0:
+        # Coinsider pure nodes only 
+        if exception_size == 0:
+            for branch in all_branches:
+                #First find all the pure hypotheses consider pure leaves if exception_size = 0
+                if model.tree_.impurity[branch[-1]] == 0.0:
+                    textual = []
+                    index=0
+                    for node in branch: 
+                        #For leaf nodes take the predicted label and the number of predicates 
+                        if node == branch[-1]:
+                            value = None
+                            if model.tree_.n_outputs == 1:
+                                value = model.tree_.value[node][0]
+                            else:
+                                value = model.tree_.value[node].T[0]
+                            class_name = np.argmax(value)
+                            if model.tree_.n_classes[0] != 1 and model.tree_.n_outputs == 1:
+                                class_name = class_names[class_name]
+                            textual.append((class_name, model.tree_.n_node_samples[node]))
+                        #For decision nodes take the feature (property) on which it splits and the threshold value for that property. 
+                        else:
+                            if branch[index+1] == model.tree_.children_left[node]:
+                                textual.append((X.columns[model.tree_.feature[node]], f"0"))
+                            else:
+                                textual.append((X.columns[model.tree_.feature[node]], f"1"))
+                        index+=1
+                    text_branches.append(textual)
+        else:
+            for branch in all_branches:
                 textual = []
                 index=0
-                for node in branch: 
-                    #For leaf nodes take the predicted label and the number of predicates 
-                    if node == branch[-1]:
+                hypothesis_found = False
+                for node in branch:
+                    exc = int(sum(model.tree_.value[node][0]) - max(model.tree_.value[node][0])) # count exceptions
+                    #print(model.tree_.value[node][0][0])
+                    if exc <= exception_size:
+                        hypothesis_found = True
                         value = None
                         if model.tree_.n_outputs == 1:
                             value = model.tree_.value[node][0]
                         else:
                             value = model.tree_.value[node].T[0]
-                        class_name = np.argmax(value)
+                        class_name = np.argmax(value) #Returns the indices of the maximum values along an axis.
                         if model.tree_.n_classes[0] != 1 and model.tree_.n_outputs == 1:
                             class_name = class_names[class_name]
-                        textual.append((class_name, model.tree_.n_node_samples[node]))
+                        textual.append((class_name, model.tree_.n_node_samples[node], f'exceptions: {exc}'))
                     #For decision nodes take the feature (property) on which it splits and the threshold value for that property. 
-                    else:
+                    if node != branch[-1]:
                         if branch[index+1] == model.tree_.children_left[node]:
                             textual.append((X.columns[model.tree_.feature[node]], f"0"))
                         else:
                             textual.append((X.columns[model.tree_.feature[node]], f"1"))
-                    index+=1
-                text_branches.append(textual)
-                    
+                if hypothesis_found:
+                    text_branches.append(textual)
+
+
         return text_branches
     
     #Removes hypotheses that predict behaviour of less than LIMIT_OF_SAMPLES predicates
@@ -647,7 +677,7 @@ class HypothesesFinder:
         
     # Discover new hypotheses in a database using a (non-random) forest based method. You can investigate the discovered hypotheses looking at their decision trees, and checking conjunctively.
     #TO DO: make this predictive
-    def forest_based_discovery(self, X, y, limit :int=MAXIMAL_NUMBER_OF_PROPERTIES):
+    def forest_based_discovery(self, X, y, limit :int=MAXIMAL_NUMBER_OF_PROPERTIES, exception_size :int= 0):
         # Check if limit is feasible.
         if limit == 0:
             print("You need to consider hypotheses of lenght at least 1")
@@ -667,7 +697,7 @@ class HypothesesFinder:
             model = DecisionTreeClassifier(max_depth=limit+1)
             model.fit(X[list(properties)],y)
             # Recover the branches of the tree from that model, which end with pure leafs. Remove hypotheses that explain less than LIMIT_OF_SAMPLES predicates.
-            branches = self.retreive_text_branches(model, X[list(properties)])
+            branches = self.retreive_text_branches(model, X[list(properties)], exception_size = exception_size)
             branches = self.remove_overfitting(branches)
             for branch in branches:
                 if branch not in hypotheses:
