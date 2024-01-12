@@ -2,8 +2,9 @@
     "veridicality": [
         "neither",
         "veridical",
-        "typically",
-        "anti-veridical"
+        "typically veridical",
+        "anti-veridical",
+        "typically anti-veridical"
     ],
     "conjoined with negation": [
         "neither",

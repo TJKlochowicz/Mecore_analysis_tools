@@ -557,13 +557,14 @@ class HypothesesFinder:
                         class_name = np.argmax(value) #Returns the indices of the maximum values along an axis.
                         if model.tree_.n_classes[0] != 1 and model.tree_.n_outputs == 1:
                             class_name = class_names[class_name]
-                        textual.append((class_name, model.tree_.n_node_samples[node], f'exceptions: {exc}'))
+                        textual.append((class_name, int(max(model.tree_.value[node][0])), f'exceptions: {exc}'))
                     #For decision nodes take the feature (property) on which it splits and the threshold value for that property. 
                     if node != branch[-1]:
                         if branch[index+1] == model.tree_.children_left[node]:
                             textual.append((X.columns[model.tree_.feature[node]], f"0"))
                         else:
                             textual.append((X.columns[model.tree_.feature[node]], f"1"))
+                    index+=1
                 if hypothesis_found:
                     text_branches.append(textual)
 
