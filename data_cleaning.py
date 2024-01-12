@@ -441,6 +441,20 @@ class DataExtractor:
         semantic_df = semantic_df.reset_index()
         semantic_df = semantic_df.set_index('index')
         return semantic_df
+
+    #Returns a database with dummy columns, which is an input to the hypothesis finder. If remove typically it changes all the values startig with 'typically' to 'neither'. 
+    def get_X(self, df, cols:list = CORRECT_DESCRIPTIVE_COLUMN_NAMES, label :str = 'label', remove_typically = False):
+        X= df.drop(cols + [label], axis=1)
+        if remove_typically:
+            for i in range(X.shape[0]): #iterate over rows
+                for j in range(X.shape[1]): #iterate over columns
+                    try:
+                        if X.iat[i,j].split(' ')[0] == 'typically':
+                            X.iat[i,j] = 'neither'
+                    except AttributeError:
+                        pass
+        X = pd.get_dummies(X)
+        return X
     
 # Tree based method to analyse databases
 class HypothesesFinder:

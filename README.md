@@ -2,7 +2,6 @@
 
 ### This project serves to automotically analyse the data collected in the MECORE Project. It allows to safely unify, merge and compare databases.
 
-TO DO: Implementation of Machine learning tools \
 
 ## Input file format
 This package operates on .csv files from the MECORE DATABASE. 
@@ -92,6 +91,8 @@ The **data_cleaning.py** file allows to extract predefined parts of the database
 *df_selectional = get_selectional_properties(df)* extracts selectional properties from the database (based on column names). 
     
 *df_r = get_anti_rogative_vs_responsive_df(df)* extracts only anti_rogative and responsive predicates and their semantic properties. Creates additional column called 'label' which contains values: '*responsive*' or '*anti-rogative*'
+
+*X = get_X(df, cols:list = CORRECT_DESCRIPTIVE_COLUMN_NAMES, label :str = 'label', remove_typically = False)* Returns a database with dummy columns, which is an input to the hypothesis finder (X). It drops *cols* and *label*. If *remove typically =True* it changes all the values of all cells startig with 'typically' to 'neither'. 
 
 ## Analysis
 The **data_cleaning.py** file allows to verify hypotheses about the behaviour of clause-embedding predicates and automatically search for new hypotheses.
