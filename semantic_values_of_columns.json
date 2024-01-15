@@ -94,7 +94,6 @@
         "1",
         "complex-predicate",
         "undecided"
-        
     ],
     "ignorance/belief wrt int": [
         "belief",
@@ -120,61 +119,5 @@
     "P-to-Q distributivity": [
         "1",
         "0"
-    ],
-    "finite declarative clause: indicative": [
-        "1",
-        "0"
-    ],
-    "finite declarative clause: subjunctive": [
-        "0",
-        "1"
-    ],
-    "Finite d-linked constituent interrogative clause": [
-        "1",
-        "0"
-    ],
-    "finite non-d-linked constituent interrogative clause": [
-        "1",
-        "0"
-    ],
-    "finite polar interrogative clause": [
-        "0",
-        "1"
-    ],
-    "finite alternative interrogative clause": [
-        "0",
-        "1"
-    ],
-    "Finite non-d-linked constituent interrogative clause with main clause syntax": [
-        "0",
-        "1"
-    ],
-    "non-finite declarative clause without subject": [
-        "0",
-        "1"
-    ],
-    "non-finite d-linked constituent interrogative without subj": [
-        "0",
-        "1"
-    ],
-    "non-finite non-d-linked constituent interrogative without subj": [
-        "0",
-        "1"
-    ],
-    "non-finite polar int without subj": [
-        "0",
-        "1"
-    ],
-    "non-finite alt int without subj": [
-        "0",
-        "1"
-    ],
-    "concealed q": [
-        "0",
-        "1"
-    ],
-    "Intransitive use": [
-        "0",
-        "1"
     ]
 }

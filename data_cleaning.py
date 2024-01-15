@@ -49,6 +49,8 @@ class DataCleaner:
         self.correct_words = words.words() 
         with open ('values_of_columns.json', 'r') as file:
             self.values_of_columns = json.load(file)
+        with open ('semantic_values_of_columns.json', 'r') as file:
+            self.semantic_values_of_columns = json.load(file)
         self.correct_column_names = []
         self.refine_dictionnary()
         self.define_column_names()
@@ -98,9 +100,13 @@ class DataCleaner:
         return df
 
 
-    def check_names(self,df):
+    def check_names(self,df, semantic_only=False):
         fixed = True
         error = 0
+        if semantic_only:
+            correct_names = self.semantic_values_of_columns
+        else:
+            correct_names = self.correct_column_names
         print(f"The databse has {len(df.columns)} columns and {len(df.index)} rows.")
         listed_column_names = df.columns.tolist()
         if listed_column_names == self.correct_column_names:

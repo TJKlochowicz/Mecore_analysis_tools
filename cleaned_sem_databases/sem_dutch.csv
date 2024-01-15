@@ -1,0 +1,49 @@
+language,predicate,English translation,predicate class,veridicality,conjoined with negation,conjoined with complement,projection through negation,neg-raising,likelihood,unlikelihood,equal likelihood,certainty,counter-certainty,uncertainty,preference,opposition,indifference,focus sensitivity,gradability wrt decl,ignorance/belief wrt int,gradability wrt int,Q-to-P veridicality,Q-to-P distributivity,P-to-Q distributivity
+Dutch,accepteren,accept,assessment,typically veridical,neither,redundant,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+Dutch,ontkennen,deny,assessment,typically veridical,neither,neither,neither,0,compatible,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,1,0,,,,,
+Dutch,hopen,hope,bouletic,neither,neither,neither,neither,1,compatible,compatible,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,1,,,,,
+Dutch,bidden,pray,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,undecided,,,,,
+Dutch,liever hebben,prefer,bouletic,neither,neither,neither,neither,1,compatible,compatible,compatible,compatible,compatible,compatible,always,incompatible,incompatible,1,complex-predicate,,,,,
+Dutch,willen,want ,bouletic,neither,neither,neither,neither,1,compatible,compatible,compatible,incompatible,compatible,compatible,always,incompatible,incompatible,1,1,,,,,
+Dutch,bang zijn,be worried,bouletic: negative,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,incompatible,always,incompatible,1,1,,,,,
+Dutch,vrezen,fear,bouletic: negative,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,incompatible,always,incompatible,1,1,typically belief,1,0,1,1
+Dutch,aankondigen,announce,communication,typically veridical,neither,redundant,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+Dutch,beargumenteren,argue,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+Dutch,mededelen,assert,communication,typically veridical,neither,redundant,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+Dutch,beweren,claim,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,undecided,typically belief,undecided,0,1,1
+Dutch,klagen,complain,communication,typically veridical,neither,redundant,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,typically,compatible,1,1,typically belief,1,0,1,1
+Dutch,uitleggen,explain,communication,veridical,contradictory,redundant,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,belief,0,1,1,1
+Dutch,inlichten,inform,communication,typically veridical,neither,redundant,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+Dutch,vertellen,tell ,communication,typically veridical,neither,redundant,typically projective,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,undecided,typically belief,undecided,0,1,1
+Dutch,fluisteren,whisper,communication: manner of saying,neither,neither,redundant,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Dutch,schrijven,write,communication: manner of saying,typically veridical,neither,redundant,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,undecided,typically belief,undecided,0,1,1
+Dutch,besluiten,decide,decision,typically veridical,neither,redundant,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+Dutch,eisen,demand,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,typically,typically,compatible,compatible,1,0,,,,,
+Dutch,bevelen,order,directive,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,typically,compatible,compatible,1,0,,,,,
+Dutch,voorstellen,propose,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,typically,typically,compatible,compatible,1,0,neither,0,0,1,1
+Dutch,het eens zijn,agree with someone (indirect object) [stative: to be in agreement (rather than to reach agreement)],doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,belief,1,0,1,1
+Dutch,aannemen,assume,doxastic,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+Dutch,er zeker van zijn,be certain,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,belief,1,0,1,1
+Dutch,ervan overtuigd zijn,be convinced,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,belief,1,0,1,1
+Dutch,zich er onbewust van zijn,be unaware,doxastic,veridical,contradictory,redundant,projective,0,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,1,1,1
+Dutch,geloven,believe,doxastic,neither,neither,neither,neither,1,always,incompatible,incompatible,compatible,incompatible,typically,compatible,compatible,compatible,0,1,,,,,
+Dutch,verwachten,expect,doxastic,neither,neither,neither,neither,1,always,incompatible,incompatible,compatible,incompatible,typically,compatible,compatible,compatible,0,1,belief,0,0,1,1
+Dutch,weten,know,doxastic,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,belief,0,1,1,1
+Dutch,vermoeden,suspect,doxastic,neither,neither,neither,typically projective,0,always,incompatible,incompatible,incompatible,incompatible,always,compatible,compatible,compatible,1,1,typically belief,1,0,1,1
+Dutch,denken,think,doxastic,neither,neither,neither,neither,1,always,incompatible,incompatible,compatible,incompatible,typically,compatible,compatible,compatible,0,0,,,,,
+Dutch,gelijk hebben,be right ,doxastic evaluative,veridical,contradictory,redundant,reversal,0,typically,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,undecided,typically belief,undecided,1,1,1
+Dutch,ongelijk hebben,be wrong,doxastic evaluative,anti-veridical,redundant,contradictory,projective,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+Dutch,vergeten,forget,doxastic: change of state,veridical,contradictory,redundant,projective,0,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,0,typically ignorance,0,1,1,1
+Dutch,leren,learn,doxastic: change of state,neither,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,undecided,typically belief,undecided,0,1,1
+Dutch,bewijfelen,doubt,dubitative,neither,neither,neither,typically projective,0,incompatible,typically,compatible,incompatible,incompatible,always,compatible,compatible,compatible,1,1,typically ignorance,undecided,0,0,1
+Dutch,Blij zijn,be happy,emotive factive,veridical,neither,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,always,incompatible,incompatible,1,1,belief,1,1,1,1
+Dutch,verbaasd zijn,be surprised,emotive factive,veridical,neither,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,belief,1,1,1,1
+Dutch,betreuren,regret,emotive factive,veridical,neither,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,1,belief,1,1,1,1
+Dutch,vragen,ask,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+Dutch,nieuwsgierig zijn,be curious,inquisitive,,,,,,,,,,,,,,,,,ignorance,1,,,
+Dutch,navragen,inquire,inquisitive,,,,,,,,,,,,,,,,,typically belief,0,,,
+Dutch,onderzoeken,investigate,inquisitive,,,,,,,,,,,,,,,,,typically belief,undecided,,,
+Dutch,zich afvragen,wonder,inquisitive,,,,,,,,,,,,,,,,,ignorance,1,,,
+Dutch,zien,see,perception,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,typically belief,0,1,1,1
+Dutch,Het interesseert iem.,care (it interests sb ...),predicates of relevance,veridical,neither,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,typically belief,1,0,0,1
+Dutch,bewijzen,prove,ratification,veridical,neither,redundant,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,undecided,belief,undecided,1,1,1
