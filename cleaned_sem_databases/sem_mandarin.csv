@@ -1,0 +1,46 @@
+language,predicate,English translation,predicate class,veridicality,conjoined with negation,conjoined with complement,projection through negation,neg-raising,likelihood,unlikelihood,equal likelihood,certainty,counter-certainty,uncertainty,preference,opposition,indifference,focus sensitivity,gradability wrt decl,ignorance/belief wrt int,gradability wrt int,Q-to-P veridicality,Q-to-P distributivity,P-to-Q distributivity
+Mandarin Chinese,chengren,accept,assessment,typically veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Mandarin Chinese,fouren,deny,assessment,neither,neither,neither,typically projective,0,compatible,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,1,0,,,,,
+Mandarin Chinese,xiwang,hope,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,compatible,typically,always,incompatible,incompatible,1,1,,,,,
+Mandarin Chinese,qidao,pray,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,typically,compatible,compatible,1,undecided,,,,,
+Mandarin Chinese,gengxiang,prefer,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,compatible,compatible,always,incompatible,incompatible,1,complex-predicate,,,,,
+Mandarin Chinese,xiang(yao),want ,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,compatible,typically,always,incompatible,incompatible,1,1,,,,,
+Mandarin Chinese,danxin,be worried,bouletic: negative,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,incompatible,always,incompatible,always,incompatible,1,1,ignorance,1,0,0,1
+Mandarin Chinese,pa,fear,bouletic: negative,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,incompatible,always,incompatible,always,incompatible,1,1,,,,,
+Mandarin Chinese,xuanbu,announce,communication,neither,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Mandarin Chinese,jiancheng,assert,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,undecided,,,,,
+Mandarin Chinese,shengcheng,claim,communication,typically anti-veridical,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,,,,,
+Mandarin Chinese,baoyuan,complain,communication,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,typically,compatible,1,1,,,,,
+Mandarin Chinese,jieshi,explain,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Mandarin Chinese,gaozhi,inform,communication,neither,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Mandarin Chinese,gaosu,tell ,communication,neither,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Mandarin Chinese,xiaoshengdeshuo,whisper,communication: manner of saying,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,complex-predicate,typically belief,complex-predicate,0,1,1
+Mandarin Chinese,dahan,shout,communication: manner of saying,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,typically,compatible,compatible,0,0,typically belief,0,0,1,1
+Mandarin Chinese,xiexia,write,communication: manner of saying,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Mandarin Chinese,jueding,decide,decision,neither,neither,neither,neither,0,typically,compatible,compatible,compatible,compatible,typically,typically,compatible,compatible,1,0,typically belief,0,0,1,1
+Mandarin Chinese,yaoqiu,demand,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,typically,typically,compatible,compatible,1,undecided,typically belief,0,0,1,1
+Mandarin Chinese,mingling,order,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,typically,typically,compatible,compatible,1,0,typically belief,0,0,1,1
+Mandarin Chinese,tiyi,propose,directive,neither,neither,neither,neither,typically neg-raising,compatible,compatible,compatible,compatible,compatible,typically,typically,compatible,compatible,1,0,typically ignorance,0,0,1,1
+Mandarin Chinese,tongyi,agree with X [stative: to be in agreement (rather than to reach agreement)],doxastic,neither,neither,redundant,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,undecided,belief,undecided,0,1,1
+Mandarin Chinese,jiading,assume,doxastic,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,compatible,typically,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Mandarin Chinese,queding,be certain,doxastic,neither,neither,neither,,,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,belief,1,0,1,1
+Mandarin Chinese,jianxin,be convinced,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,,,,,
+Mandarin Chinese,meiyishidao,be unaware,doxastic,veridical,contradictory,redundant,projective,0,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,undecided,typically ignorance,undecided,1,1,1
+Mandarin Chinese,xiangxin,believe,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,,,,,
+Mandarin Chinese,qiwang,expect,doxastic,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,compatible,typically,always,incompatible,incompatible,1,1,,,,,
+Mandarin Chinese,zhidao,know,doxastic,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,belief,1,1,1,1
+Mandarin Chinese,huaiyi,suspect,doxastic,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,compatible,compatible,compatible,1,1,,,,,
+Mandarin Chinese,renwei,think,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,undecided,,,,,
+Mandarin Chinese,wangji,forget,doxastic: change of state,veridical,contradictory,redundant,typically projective,0,compatible,compatible,compatible,incompatible,compatible,typically,compatible,compatible,compatible,1,0,typically ignorance,0,1,1,1
+Mandarin Chinese,dezih,learn,doxastic: change of state,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Mandarin Chinese,gaoxing,be happy,emotive factive,typically veridical,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,always,incompatible,incompatible,1,1,,,,,
+Mandarin Chinese,jingya,be surprised,emotive factive,typically veridical,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,,,,,
+Mandarin Chinese,houhui,regret,emotive factive,typically veridical,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,1,,,,,
+Mandarin Chinese,wen,ask,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+Mandarin Chinese,haoqi,be curious,inquisitive,,,,,,,,,,,,,,,,,ignorance,1,,,
+Mandarin Chinese,xunwen,inquire,inquisitive,,,,,,,,,,,,,,,,,ignorance,0,,,
+Mandarin Chinese,diaocha,investigate,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+Mandarin Chinese,xiangzhidao,wonder,inquisitive,,,,,,,,,,,,,,,,,ignorance,complex-predicate,,,
+Mandarin Chinese,kanjian,see,perception,typically veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Mandarin Chinese,guanxin,care,predicates of relevance,,,,,,,,,,,,,,,,,ignorance,1,,,
+Mandarin Chinese,zhengming,prove,ratification,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
