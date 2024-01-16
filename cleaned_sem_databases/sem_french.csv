@@ -1,0 +1,49 @@
+language,predicate,English translation,predicate class,veridicality,conjoined with negation,conjoined with complement,projection through negation,neg-raising,likelihood,unlikelihood,equal likelihood,certainty,counter-certainty,uncertainty,preference,opposition,indifference,focus sensitivity,gradability wrt decl,ignorance/belief wrt int,gradability wrt int,Q-to-P veridicality,Q-to-P distributivity,P-to-Q distributivity
+French,accepter,accept,assessment,typically veridical,neither,neither,neither,1,typically,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,1,0,,,,,
+French,nier,deny,assessment,neither,neither,neither,typically projective,0,compatible,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,1,0,,,,,
+French,espérer,hope,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,1,,,,,
+French,prier,pray,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,typically,typically,compatible,compatible,1,0,,,,,
+French,préférer,prefer,bouletic,neither,neither,neither,neither,typically neg-raising,compatible,compatible,compatible,compatible,compatible,typically,always,incompatible,incompatible,1,1,,,,,
+French,vouloir,want ,bouletic,neither,neither,neither,neither,1,compatible,compatible,compatible,compatible,compatible,typically,always,incompatible,incompatible,1,1,,,,,
+French,être inquiet(e),be worried,bouletic: negative,typically veridical,neither,neither,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,typically,compatible,1,1,,,,,
+French,craindre,fear,bouletic: negative,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,incompatible,always,incompatible,always,incompatible,1,1,,,,,
+French,annoncer,announce,communication,typically veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,belief,0,0,1,1
+French,soutenir,argue,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,undecided,,,,,
+French,affirmer,assert,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,,,,,
+French,prétendre,claim,communication,neither,neither,neither,typically reversal,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,,,,,
+French,se plaindre,complain,communication,typically veridical,contradictory,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,typically,compatible,1,1,,,,,
+French,expliquer,explain,communication,veridical,,redundant,projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,undecided,belief,undecided,0,1,1
+French,informer,inform,communication,typically veridical,neither,redundant,projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,belief,0,1,1,1
+French,dire,tell ,communication,neither,neither,neither,typically projective,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,belief,0,0,1,1
+French,chuchoter,whisper,communication: manner of saying,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,belief,0,0,1,1
+French,écrire,write,communication: manner of saying,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,belief,0,0,1,1
+French,décider,decide,decision,typically veridical,neither,redundant,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,belief,undecided,1,1,1
+French,exiger,demand,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,typically,compatible,compatible,1,0,,,,,
+French,ordonner,order,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,typically,compatible,compatible,1,0,,,,,
+French,proposer,propose,directive,neither,neither,neither,neither,0,incompatible,compatible,compatible,incompatible,compatible,compatible,typically,compatible,compatible,1,undecided,,,,,
+French,être d'accord avec qqun,agree with someone (indirect object) [stative: to be in agreement (rather than to reach agreement)],doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,undecided,belief,undecided,0,1,1
+French,supposer,assume,doxastic,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,0,,,,,
+French,être certain(e),be certain,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,undecided,,,,,
+French,être convaincu,be convinced,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,undecided,,,,,
+French,ignorer,be unaware,doxastic,veridical,contradictory,neither,projective,0,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,0,ignorance,0,1,1,1
+French,croire,believe,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,0,1,,,,,
+French,s'attendre,expect,doxastic,neither,neither,neither,typically projective,1,typically,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,0,1,,,,,
+French,savoir,know,doxastic,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,belief,undecided,1,1,1
+French,soupçonner,suspect,doxastic,neither,neither,neither,projective,0,compatible,compatible,compatible,incompatible,incompatible,always,compatible,compatible,compatible,1,1,,,,,
+French,penser,think,doxastic,neither,neither,neither,neither,typically neg-raising,always,incompatible,incompatible,compatible,incompatible,compatible,compatible,compatible,compatible,0,0,,,,,
+French,avoir raison,be right ,doxastic evaluative,,,,,,,,,,,,,,,,,belief,,,,
+French,avoir tort,be wrong,doxastic evaluative,,,,,,,,,,,,,,,,,belief,,,,
+French,oublier,forget,doxastic: change of state,veridical,contradictory,neither,projective,0,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,undecided,typically ignorance,undecided,1,1,1
+French,apprendre,learn,doxastic: change of state,veridical,contradictory,redundant,typically projective,0,typically,compatible,compatible,typically,incompatible,compatible,compatible,compatible,compatible,1,0,belief,0,1,1,1
+French,douter,doubt,dubitative,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,1,,,,,
+French,être heureux,be happy,emotive factive,typically veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,always,incompatible,incompatible,1,1,,,,,
+French,être surpris,be surprised,emotive factive,typically veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,compatible,incompatible,compatible,compatible,compatible,compatible,1,1,,,,,
+French,regretter,regret,emotive factive,typically veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,typically,incompatible,compatible,incompatible,always,incompatible,1,1,,,,,
+French,demander,ask,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+French,être curieux (de savoir),be curious,inquisitive,,,,,,,,,,,,,,,,,ignorance,1,,,
+French,demander,inquire,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+French,enqûeter,investigate,inquisitive,,,,,,,,,,,,,,,,,ignorance,undecided,,,
+French,se demander,wonder,inquisitive,,,,,,,,,,,,,,,,,ignorance,1,,,
+French,voir,see,perception,veridical,contradictory,neither,projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,belief,0,1,1,1
+French,se soucier,care,predicates of relevance,,,,,,,,,,,,,,,,,neither,1,,,
+French,prouver,prove,ratification,typically veridical,contradictory,redundant,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,undecided,,,,,

@@ -1,0 +1,49 @@
+language,predicate,English translation,predicate class,veridicality,conjoined with negation,conjoined with complement,projection through negation,neg-raising,likelihood,unlikelihood,equal likelihood,certainty,counter-certainty,uncertainty,preference,opposition,indifference,focus sensitivity,gradability wrt decl,ignorance/belief wrt int,gradability wrt int,Q-to-P veridicality,Q-to-P distributivity,P-to-Q distributivity
+Hindi,maan-a,accept,assessment,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,typically,compatible,compatible,0,undecided,typically belief,undecided,1,1,0
+Hindi,inkaar,deny,assessment,neither,neither,neither,neither,0,incompatible,always,incompatible,incompatible,typically,compatible,compatible,compatible,compatible,1,undecided,,,,,
+Hindi,ummeed,hope,bouletic,neither,neither,neither,neither,typically neg-raising,compatible,compatible,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,1,,,,,
+Hindi,prarthna,pray,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,compatible,typically,always,incompatible,incompatible,1,0,,,,,
+Hindi,,prefer,bouletic,,,,,,,,,,,,,,,,,,,,,
+Hindi,chah-,want ,bouletic,neither,neither,neither,neither,typically neg-raising,compatible,compatible,compatible,compatible,compatible,compatible,always,incompatible,incompatible,1,1,,,,,
+Hindi,chintit,be worried,bouletic: negative,neither,neither,neither,projective,0,typically,compatible,compatible,incompatible,incompatible,always,incompatible,always,incompatible,1,1,neither,1,0,0,1
+Hindi,dar,fear,bouletic: negative,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,incompatible,always,incompatible,1,1,,,,,
+Hindi,ghoshna,announce,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,1,1,0
+Hindi,,argue,communication,,,,,,,,,,,,,,,,,,,,,
+Hindi,kah-,assert,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,,1,1,0
+Hindi,N/A ,claim,communication,,,,,,,,,,,,,,,,,,,,,
+Hindi,shikaayat,complain,communication,neither,neither,neither,projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,typically,compatible,1,0,belief,0,1,1,1
+Hindi,samjha-,explain,communication,neither,neither,neither,projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,1,typically belief,1,1,1,0
+Hindi,soochit,inform,communication,neither,neither,neither,,,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,1,1,0
+Hindi,bata-,tell ,communication,neither,neither,neither,projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,1,1,0
+Hindi,phusphusa-,whisper,communication: manner of saying,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,,,,,
+Hindi,likh-,write,communication: manner of saying,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,1,1,0
+Hindi,faisla,decide,decision,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,undecided,0,1,1
+Hindi,anurodh,demand,directive,neither,neither,neither,neither,0,compatible,typically,compatible,incompatible,typically,compatible,typically,compatible,compatible,1,0,,,,,
+Hindi,hukum,order,directive,neither,neither,neither,neither,0,compatible,typically,compatible,incompatible,typically,compatible,typically,compatible,compatible,1,0,,,,,
+Hindi,,propose,directive,,,,,,,,,,,,,,,,,,,,,
+Hindi,sahmat,agree with someone (indirect object) [stative: to be in agreement (rather than to reach agreement)],doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,0,1,belief,undecided,1,1,1
+Hindi,,assume,doxastic,,,,,,,,,,,,,,,,,,,,,
+Hindi,nishcit,be certain,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,belief,1,0,1,1
+Hindi,,be convinced,doxastic,,,,,,,,,,,,,,,,,,,,,
+Hindi,anjaan,be unaware,doxastic,veridical,contradictory,redundant,projective,0,compatible,typically,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,undecided,neither,undecided,1,1,1
+Hindi,maan-ta,believe,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,compatible,incompatible,compatible,compatible,compatible,compatible,0,undecided,,,,,
+Hindi,apeksha,expect,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,compatible,incompatible,compatible,always,incompatible,incompatible,0,1,,,,,
+Hindi,jaan,know,doxastic,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,belief,0,1,1,1
+Hindi,,suspect,doxastic,,,,,,,,,,,,,,,,,,,,,
+Hindi,soch-,think,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,0,0,,,,,
+Hindi,sahi,be right ,doxastic evaluative,veridical,contradictory,redundant,neither,0,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,0,0,belief,0,1,1,1
+Hindi,galat,be wrong,doxastic evaluative,anti-veridical,redundant,contradictory,neither,0,incompatible,always,incompatible,incompatible,typically,compatible,compatible,compatible,compatible,1,0,belief,0,0,1,1
+Hindi,bhool-,forget,doxastic: change of state,veridical,contradictory,redundant,projective,0,compatible,typically,compatible,incompatible,typically,compatible,compatible,compatible,compatible,1,0,neither,0,1,1,1
+Hindi,seekh-,learn,doxastic: change of state,neither,neither,neither,projective,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,undecided,neither,undecided,1,1,1
+Hindi,shak,doubt,dubitative,neither,neither,neither,neither,0,compatible,typically,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,undecided,,,,,
+Hindi,khush,be happy,emotive factive,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,always,incompatible,incompatible,1,1,,,,,
+Hindi,hairaan,be surprised,emotive factive,veridical,contradictory,redundant,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,1,,,,,
+Hindi,khed,regret,emotive factive,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,1,,,,,
+Hindi,pooch-,ask,inquisitive,,,,,,,,,,,,,,,,,,,,,
+Hindi,,be curious,inquisitive,,,,,,,,,,,,,,,,,,,,,
+Hindi,,inquire,inquisitive,,,,,,,,,,,,,,,,,,,,,
+Hindi,jaach-partal,investigate,inquisitive,,,,,,,,,,,,,,,,,,,,,
+Hindi,,wonder,inquisitive,,,,,,,,,,,,,,,,,,,,,
+Hindi,dekh-,see,perception,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,1,1,0
+Hindi,parvah,care,predicates of relevance,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,incompatible,1,1,ignorance,1,0,0,1
+Hindi,saabit,prove,ratification,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,undecided,neither,undecided,1,1,0

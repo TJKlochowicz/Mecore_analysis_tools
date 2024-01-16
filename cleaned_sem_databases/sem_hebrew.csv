@@ -1,0 +1,49 @@
+language,predicate,English translation,predicate class,veridicality,conjoined with negation,conjoined with complement,projection through negation,neg-raising,likelihood,unlikelihood,equal likelihood,certainty,counter-certainty,uncertainty,preference,opposition,indifference,focus sensitivity,gradability wrt decl,ignorance/belief wrt int,gradability wrt int,Q-to-P veridicality,Q-to-P distributivity,P-to-Q distributivity
+hebrew,lekabél,accept,assessment,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,1,neither,1,1,1,0
+hebrew,lehakxíʃ ,deny,assessment,neither,neither,neither,typically projective,0,compatible,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,1,1,neither,1,0,1,1
+hebrew,lekavót,hope,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,1,,,,,
+hebrew,lehitpalél,pray,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,incompatible,always,typically,compatible,compatible,1,1,,,,,
+hebrew,lehaadíf,prefer,bouletic,neither,neither,neither,neither,typically neg-raising,compatible,compatible,compatible,compatible,compatible,compatible,always,incompatible,incompatible,1,1,neither,1,0,0,1
+hebrew,lirʦót,want ,bouletic,neither,neither,neither,neither,typically neg-raising,compatible,compatible,compatible,compatible,compatible,compatible,always,incompatible,incompatible,1,1,,,,,
+hebrew,lidʔóg,be worried,bouletic: negative,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,compatible,typically,compatible,1,1,neither,1,0,0,0
+hebrew,laxʃóʃ,fear,bouletic: negative,neither,neither,neither,neither,0,always,incompatible,incompatible,incompatible,incompatible,always,compatible,typically,compatible,1,1,neither,1,0,0,0
+hebrew,lehaxríz,announce,communication,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,1,1,0
+hebrew,same as assert,argue,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,,,,,
+hebrew,litʔon,assert,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,,,,,
+hebrew,same as assert,claim,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,,,,,
+hebrew,lehitlonén,complain,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,typically,compatible,1,1,,,,,
+hebrew,lehasbír,explain,communication,typically veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,1,1,0
+hebrew,lejadéa,inform,communication,veridical,contradictory,redundant,projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,1,1,1
+hebrew,lesapér,tell ,communication,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,neither,0,1,1,0
+hebrew,lilxóʃ,whisper,communication: manner of saying,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,neither,0,1,1,0
+hebrew,lixtóv,write,communication: manner of saying,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,neither,0,1,1,0
+hebrew,lehaxlít,decide 'make a decision',decision,typically veridical,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,typically,compatible,compatible,1,0,typically belief,0,0,1,1
+hebrew,lidróʃ,demand,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,typically,compatible,compatible,0,1,neither,1,0,1,1
+hebrew,leʦavót,order,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,typically,compatible,compatible,0,0,typically belief,0,0,1,1
+hebrew,lehaʦia,propose,directive,neither,neither,neither,neither,0,typically,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,1,neither,0,0,1,1
+hebrew,lehaskím,agree with someone (indirect object) [stative: to be in agreement (rather than to reach agreement)],doxastic,typically veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,1,typically belief,1,0,1,1
+hebrew,lehaníax,assume,doxastic,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+hebrew,batúax,be certain,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,belief,1,0,1,1
+hebrew,meʃuxná,be convinced,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,0,1,belief,1,0,1,1
+hebrew,ló mudá,be unaware,doxastic,veridical,contradictory,redundant,projective,0,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,1,1,1,1
+hebrew,lehaʔmín,believe,doxastic,neither,neither,neither,neither,1,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,0,1,,,,,
+hebrew,leʦapót,expect,doxastic,neither,neither,neither,neither,1,always,incompatible,incompatible,compatible,incompatible,compatible,compatible,compatible,compatible,0,1,,,,,
+hebrew,ladáat,know,doxastic,typically veridical,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,belief,0,1,1,0
+hebrew,laxʃód,suspect,doxastic,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,compatible,compatible,compatible,0,1,ignorance,1,0,0,1
+hebrew,laxʃóv,think,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,compatible,incompatible,compatible,compatible,compatible,compatible,0,0,neither,0,0,0,1
+hebrew,ʦodék,be right ,doxastic evaluative,veridical,contradictory,redundant,reversal,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,1,belief,1,1,1,1
+hebrew,litʔót,be wrong,doxastic evaluative,anti-veridical,redundant,contradictory,projective,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,1,belief,1,0,1,1
+hebrew,liʃkóax,forget,doxastic: change of state,veridical,contradictory,redundant,projective,0,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,1,neither,1,1,1,1
+hebrew,lilmód,learn,doxastic: change of state,typically veridical,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,belief,0,1,1,0
+hebrew,safék,doubt,dubitative,neither,neither,neither,neither,1,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,1,ignorance,1,0,0,0
+hebrew,saméax,be happy,emotive factive,typically veridical,neither,neither,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,always,incompatible,incompatible,1,1,belief,1,1,1,0
+hebrew,muftá,be surprised,emotive factive,typically veridical,neither,neither,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,belief,1,1,0,0
+hebrew,lehitxarét (something the subject did),regret,emotive factive,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,1,belief,1,1,1,1
+hebrew,liʃʔól,ask,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+hebrew,sakrán,be curious,inquisitive,,,,,,,,,,,,,,,,,ignorance,1,,,
+hebrew,same as ask,inquire,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+hebrew,laxkór,investigate,inquisitive,,,,,,,,,,,,,,,,,ignorance,0,,,
+hebrew,lithót,wonder,inquisitive,,,,,,,,,,,,,,,,,ignorance,1,,,
+hebrew,lirʔót,see,perception,typically veridical,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,1,1,0
+hebrew,ixpát,care,predicates of relevance,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,neither,1,0,1,0
+hebrew,lehoxíax,prove,ratification,veridical,contradictory,redundant,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,1,1,1

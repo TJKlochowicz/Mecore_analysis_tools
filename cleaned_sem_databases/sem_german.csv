@@ -1,0 +1,44 @@
+language,predicate,English translation,predicate class,veridicality,conjoined with negation,conjoined with complement,projection through negation,neg-raising,likelihood,unlikelihood,equal likelihood,certainty,counter-certainty,uncertainty,preference,opposition,indifference,focus sensitivity,gradability wrt decl,ignorance/belief wrt int,gradability wrt int,Q-to-P veridicality,Q-to-P distributivity,P-to-Q distributivity
+german,akzeptiren,accept,assessment,typically veridical,neither,typically redundant,neither,0,typically,compatible,compatible,typically,incompatible,compatible,compatible,compatible,compatible,1,0,,,,,
+german,abstreiten,deny,assessment,typically anti-veridical,neither,neither,typically projective,0,compatible,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,1,0,,,,,
+german,hoffen,hope,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,1,,,,,
+german,beten,pray,bouletic,neither,neither,neither,neither,0,compatible,typically,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,0,,,,,
+german,bevorzugen,prefer,bouletic,neither,neither,neither,neither,typically neg-raising,compatible,compatible,compatible,compatible,compatible,compatible,always,incompatible,incompatible,1,0,,,,,
+german,wollen,want ,bouletic,neither,neither,neither,neither,1,compatible,compatible,compatible,compatible,compatible,compatible,always,incompatible,incompatible,1,1,,,,,
+german,sich sorgen,be worried,bouletic: negative,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,incompatible,always,incompatible,1,1,,,,,
+german,fürchten,fear,bouletic: negative,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,incompatible,always,incompatible,1,1,,,,,
+german,verkünden,announce,communication,veridical,neither,neither,neither,0,typically,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,neither,0,0,1,1
+german,darlegen,argue,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,0,1
+german,sagen,say,communication,veridical,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,neither,0,0,1,1
+german,behaupten,claim,communication,neither,neither,neither,neither,0,typically,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,,,,,
+german,sich beschweren,complain,communication,typically veridical,neither,redundant,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,1,,,,,
+german,erklären (explain),explain,communication,veridical,contradictory,redundant,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,0,0
+german,jemandem etwas mitteilen,inform sb. about sth.,communication,typically veridical,contradictory,redundant,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,0,belief,0,0,1,1
+german,erzählen,tell ,communication,typically veridical,neither,typically redundant,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,1,1
+german,schreiben,write,communication: manner of saying,typically veridical,neither,redundant,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,neither,0,,,
+german,entscheiden,decide,decision,neither,neither,neither,neither,0,typically,compatible,compatible,compatible,incompatible,compatible,typically,compatible,compatible,1,0,neither,0,1,1,1
+german,verlangen,demand,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,typically,compatible,compatible,1,0,,,,,
+german,anordnen,order,directive,neither,contradictory,redundant,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,typically,compatible,compatible,1,0,typically belief,0,0,0,1
+german,mit jemandem übereineinstimmen,agree with someone (indirect object) [stative: to be in agreement (rather than to reach agreement)],doxastic,neither,neither,neither,neither,undecided,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,0,0,belief,0,0,1,1
+german,annehmen,assume,doxastic,neither,neither,neither,neither,0,typically,incompatible,compatible,incompatible,incompatible,always,compatible,compatible,compatible,0,0,,,,,
+german,sich sicher sein,be certain,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,undecided,,,,,
+german,sich nicht bewusst sein,be unaware,doxastic,typically veridical,contradictory,redundant,projective,undecided,incompatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,0,ignorance,0,1,1,0
+german,glauben,believe,doxastic,neither,neither,neither,neither,typically neg-raising,always,incompatible,incompatible,compatible,incompatible,typically,compatible,compatible,compatible,0,0,,,,,
+german,erwarten,expect,doxastic,neither,neither,neither,neither,typically neg-raising,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,1,0,,,,,
+german,wissen,know,doxastic,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,belief,0,1,1,1
+german,vermuten,suspect,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,incompatible,incompatible,always,compatible,compatible,compatible,1,0,,,,,
+german,denken,think,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,compatible,incompatible,typically,compatible,compatible,compatible,0,0,,,,,
+german,recht haben,be right ,doxastic evaluative / communication verb,veridical,contradictory,redundant,reversal,undecided,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,0,0,,,,,
+german,falsch liegen,be wrong,doxastic evaluative,anti-veridical,neither,contradictory,typically projective,undecided,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,1,0,,,,,
+german,vergessen,forget,doxastic: change of state,veridical,contradictory,redundant,projective,0,incompatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,0,ignorance,0,1,1,1
+german,lernen,learn,doxastic: change of state,neither,neither,neither,typically projective,0,typically,compatible,incompatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+german,bezweifeln,doubt,dubitative,neither,neither,neither,neither,0,incompatible,always,incompatible,incompatible,typically,compatible,compatible,compatible,compatible,0,1,,,,,
+german,sich freuen,be happy,emotive factive,typically veridical,,,,,,,,,,,,,,,,,,,,
+german,überrascht sein,be surprised,emotive factive,typically veridical,,,,,,,,,,,,,,,,,,,,
+german,bereuen,regret,emotive factive,typically veridical,,,,,,,,,,,,,,,,,,,,
+german,fragen,ask,inquisitive,,,,,,,,,,,,,,,,,neither,0,,,
+german,sich erkundigen,inquire,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+german,untersuchen,investigate,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+german,sich fragen,wonder,inquisitive,,,,,,,,,,,,,,,,,ignorance,0,,,
+german,sehen,see,perception,typically veridical,contradictory,redundant,typically projective,0,typically,compatible,incompatible,typically,compatible,incompatible,compatible,compatible,compatible,1,0,belief,0,1,1,1
+german,etw. an etw. merken,notice realize feel,perception/cognition,typically veridical,contradictory,typically redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,undecided,belief,undecided,1,1,1

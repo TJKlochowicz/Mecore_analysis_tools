@@ -1,0 +1,52 @@
+language,predicate,English translation,predicate class,veridicality,conjoined with negation,conjoined with complement,projection through negation,neg-raising,likelihood,unlikelihood,equal likelihood,certainty,counter-certainty,uncertainty,preference,opposition,indifference,focus sensitivity,gradability wrt decl,ignorance/belief wrt int,gradability wrt int,Q-to-P veridicality,Q-to-P distributivity,P-to-Q distributivity
+catalan,acceptar,accept,assessment,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,undecided,belief,0,1,1,1
+catalan,negar,deny (specific notes),assessment,typically anti-veridical,neither,neither,neither,0,compatible,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,1,undecided,,,,,
+catalan,esperar,hope,bouletic,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,1,,,,,
+catalan,pregar,pray,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,1,,,,,
+catalan,preferir,prefer,bouletic,neither,neither,neither,neither,typically neg-raising,compatible,compatible,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,undecided,,,,,
+catalan,voler,want ,bouletic,neither,neither,neither,neither,1,compatible,compatible,typically,incompatible,incompatible,always,always,incompatible,incompatible,1,undecided,,,,,
+catalan,preocupar-se,be worried ,bouletic: negative,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,incompatible,typically,compatible,1,1,ignorance,1,0,0,0
+catalan,témer,fear,bouletic: negative,neither,neither,neither,neither,0,compatible,compatible,typically,incompatible,incompatible,always,incompatible,always,incompatible,1,1,ignorance,1,0,1,1
+catalan,anunciar,announce,communication,typically veridical,neither,neither,projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,belief,0,0,1,1
+catalan,argumentar,argue,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,belief,undecided,0,1,1
+catalan,asseverar,assert,communication,typically veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,belief,0,0,1,1
+catalan,afirmar,claim ,communication,typically veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,belief,0,0,1,1
+catalan,queixar-se,complain,communication,veridical,neither,neither,projective,0,typically,compatible,compatible,typically,compatible,compatible,incompatible,always,incompatible,1,1,belief,1,1,1,1
+catalan,explicar,explain,communication,typically veridical,neither,neither,undecided,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,belief,0,0,1,1
+catalan,informar,inform,communication,veridical,neither,neither,undecided,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,belief,0,1,1,1
+catalan,,tell,communication,,,,,,,,,,,,,,,,,,,,,
+catalan,xiuxiuejar,whisper,communication: manner of saying,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,belief,0,0,1,0
+catalan,escriure,write,communication: manner of saying,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,belief,0,0,1,0
+catalan,decidir,decide,decision,neither,neither,neither,neither,0,typically,incompatible,compatible,typically,incompatible,compatible,compatible,compatible,compatible,1,0,belief,0,0,1,1
+catalan,exigir,demand,directive,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,always,incompatible,incompatible,1,undecided,,,,,
+catalan,ordenar,order,directive,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,always,incompatible,incompatible,1,0,,,,,
+catalan,proposar,propose,directive,neither,neither,neither,neither,0,typically,compatible,compatible,compatible,compatible,compatible,always,incompatible,incompatible,1,0,,,,,
+catalan,estar d'acord,agree (with each other),doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,belief,1,0,1,1
+catalan,suposar,assume** (look at note excel),doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,compatible,incompatible,compatible,compatible,compatible,compatible,0,0,belief,0,0,0,1
+catalan,estar segur,be certain,doxastic,typically veridical,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,belief,1,0,1,0
+catalan,estar convençut,be convinced,doxastic,typically veridical,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,belief,1,0,1,1
+catalan,desconèixer,be unaware,doxastic,veridical,contradictory,redundant,neither,0,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,1,1,1
+catalan,creure,believe,doxastic,neither,neither,neither,neither,1,always,incompatible,incompatible,incompatible,incompatible,always,compatible,compatible,typically,0,0,,,,,
+catalan,,expect,doxastic,,,,,,,,,,,,,,,,,,,,,
+catalan,saber,know,doxastic,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,belief,0,1,1,1
+catalan,sospitar,suspect,doxastic,neither,neither,neither,undecided,0,always,incompatible,incompatible,incompatible,incompatible,always,compatible,compatible,compatible,0,1,belief,undecided,0,1,1
+catalan,pensar,think,doxastic,neither,neither,neither,undecided,0,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,0,undecided,neither,undecided,0,0,0
+catalan,tenir raó,be right ,doxastic evaluative,veridical,contradictory,redundant,reversal,undecided,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,1,undecided,belief,0,1,1,1
+catalan,equivocar-se,be wrong,doxastic evaluative,anti-veridical,redundant,contradictory,projective,undecided,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,1,undecided,belief,1,0,1,1
+catalan,oblidar,forget,doxastic: change of state,veridical,contradictory,redundant,projective,0,compatible,compatible,compatible,incompatible,compatible,typically,compatible,compatible,compatible,1,0,neither,0,1,1,1
+catalan,aprendre,learn,doxastic: change of state,typically veridical,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,0,belief,0,0,1,0
+catalan,dubtar,doubt,dubitative,neither,neither,neither,neither,1,incompatible,typically,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,1,neither,1,0,0,0
+catalan,estar content,be happy,emotive factive,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,always,incompatible,incompatible,1,1,belief,1,1,1,1
+catalan,estar sorprès,be surprised,emotive factive,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,belief,1,1,1,1
+catalan,lamentar,regret,emotive factive,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,1,belief,1,1,1,1
+catalan,preguntar,ask,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+catalan,tenir curiositat,be curious,inquisitive,,,,,,,,,,,,,,,,,ignorance,1,,,
+catalan,indagar,inquire,inquisitive,,,,,,,,,,,,,,,,,ignorance,undecided,,,
+catalan,investigar,investigate,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,undecided,,,
+catalan,preguntar-se,wonder,inquisitive,,,,,,,,,,,,,,,,,ignorance,0,,,
+catalan,veure,see,perception,veridical,contradictory,redundant,undecided,undecided,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,belief,0,1,1,1
+catalan,importar,care,predicates of relevance,typically veridical,contradictory,redundant,typically projective,0,compatible,compatible,compatible,always,incompatible,incompatible,compatible,compatible,incompatible,1,1,typically ignorance,1,0,0,0
+catalan,demostrar,prove,ratification,veridical,contradictory,redundant,undecided,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,0,belief,0,1,1,1
+catalan,dir,say,,typically veridical,neither,neither,undecided,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,belief,0,0,1,0
+catalan,assumir,assume,doxastic + emotional reading,typically veridical,neither,neither,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,typically,compatible,0,undecided,belief,0,0,1,1
+catalan,preveure,expect,doxastic reading,neither,neither,neither,neither,typically neg-raising,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,0,0,belief,0,0,1,1

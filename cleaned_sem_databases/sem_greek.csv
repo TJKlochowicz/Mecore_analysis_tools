@@ -1,0 +1,49 @@
+language,predicate,English translation,predicate class,veridicality,conjoined with negation,conjoined with complement,projection through negation,neg-raising,likelihood,unlikelihood,equal likelihood,certainty,counter-certainty,uncertainty,preference,opposition,indifference,focus sensitivity,gradability wrt decl,ignorance/belief wrt int,gradability wrt int,Q-to-P veridicality,Q-to-P distributivity,P-to-Q distributivity
+Greek,aghnoo,be unaware,doxastic,veridical,contradictory,redundant,projective,0,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,1,typically ignorance,1,1,1,1
+Greek,amfivalo,doubt,dubitative,neither,neither,neither,neither,0,compatible,typically,compatible,incompatible,typically,compatible,compatible,compatible,compatible,1,1,neither,1,0,0,1
+Greek,anakinono,announce,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,1,0,typically belief,0,0,1,1
+Greek,anarotieme,wonder,inquisitive,,,,,,,,,,,,,,,,,ignorance,1,,,
+Greek,anisiho,be worried,bouletic: negative,neither,neither,neither,neither,0,always,incompatible,incompatible,compatible,incompatible,typically,incompatible,always,incompatible,1,1,typically ignorance,1,0,0,1
+Greek,apeto,demand,directive,neither,neither,neither,neither,0,compatible,compatible,typically,compatible,compatible,compatible,always,incompatible,incompatible,1,0,,,,,
+Greek,apodhiknio,prove,ratification,typically veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Greek,apofasizo,decide,decision,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,typically,compatible,compatible,1,0,typically belief,0,0,1,1
+Greek,arnume,deny,assessment,neither,neither,neither,neither,0,compatible,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,1,0,,,,,
+Greek,vlepo,see,perception,typically veridical,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Greek,me njazi,care,predicates of relevance,typically veridical,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,incompatible,1,1,neither,1,0,0,1
+Greek,ghnorizo,know,doxastic,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,belief,0,1,1,1
+Greek,ghrafo,write,communication: manner of saying,neither,neither,neither,neither,0,compatible,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Greek,dhehome,accept,assessment,typically veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,,,,,
+Greek,dhilono,assert,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Greek,djatazo,order,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,always,incompatible,incompatible,1,0,,,,,
+Greek,ime sighuros,be certain,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,belief,1,0,1,1
+Greek,ekplisome,be surprised,emotive factive,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,belief,1,1,1,1
+Greek,elpizo,hope,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,1,,,,,
+Greek,enimerono,inform,communication,neither,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,0,typically belief,0,0,1,1
+Greek,exigho,explain,communication,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,0,typically belief,0,0,1,1
+Greek,erevno,investigate,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+Greek,eho dhikio,be right ,doxastic evaluative,veridical,contradictory,redundant,reversal,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,1,typically belief,0,1,1,1
+Greek,thelo,want ,desiderative,neither,neither,neither,neither,1,compatible,compatible,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,1,,,,,
+Greek,ishirizome,claim,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,,,,,
+Greek,kano lathos,be wrong,doxastic evaluative,anti-veridical,redundant,contradictory,projective,0,compatible,typically,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+Greek,leo,tell ,communication,neither,neither,neither,neither,0,compatible,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Greek,matheno,learn,doxastic: change of state,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,1,0,1
+Greek,metaniono,regret,emotive factive,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,1,,,,,
+Greek,nomizo,think,doxastic,neither,neither,neither,neither,typically neg-raising,always,incompatible,incompatible,compatible,incompatible,typically,compatible,compatible,compatible,0,0,,,,,
+Greek,xehnao,forget,doxastic: change of state,veridical,contradictory,redundant,projective,0,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,0,typically ignorance,0,1,1,1
+Greek,paraponieme,complain,communication,typically veridical,neither,redundant,neither,0,typically,compatible,compatible,typically,compatible,compatible,incompatible,always,incompatible,1,1,typically belief,0,0,1,1
+Greek,pithome,be convinced,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,typically belief,1,0,1,1
+Greek,perimeno,expect,doxastic,neither,neither,neither,neither,1,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,0,1,belief,undecided,1,1,1
+Greek,pistevo,believe,doxastic,neither,neither,neither,neither,typically neg-raising,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,0,0,,,,,
+Greek,roto na matho,inquire,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+Greek,prosefhome,pray,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,0,,,,,
+Greek,protino,propose,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,typically,always,incompatible,incompatible,1,0,typically belief,,0,1,1
+Greek,protimo,prefer,bouletic,neither,neither,neither,neither,typically neg-raising,compatible,compatible,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,0,,,,,
+Greek,rotao,ask,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+Greek,simfono,agree with X [stative: to be in agreement (rather than to reach agreement)],doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,0,1,typically belief,0,0,1,1
+Greek,ipotheto,assume,doxastic,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Greek,ipopsiazome,suspect,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,0,1,typically belief,0,0,1,1
+Greek,fovame,fear,bouletic: negative,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,incompatible,always,incompatible,1,1,neither,1,0,0,1
+Greek,herome,be happy,emotive factive,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,always,incompatible,incompatible,1,1,belief,1,1,1,1
+Greek,psithirizo,whisper,communication: manner of saying,neither,neither,neither,neither,0,compatible,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+Greek,ipostirizo,argue,commincation,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,typically,compatible,compatible,0,0,typically belief,0,0,,
+Greek,ime perierghos,be curious,inquisitive ,,,,,,,,,,,,,,,,,ignorance,1,,,
