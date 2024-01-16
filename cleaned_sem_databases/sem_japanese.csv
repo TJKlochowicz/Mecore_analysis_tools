@@ -1,0 +1,49 @@
+language,predicate,English translation,predicate class,veridicality,conjoined with negation,conjoined with complement,projection through negation,neg-raising,likelihood,unlikelihood,equal likelihood,certainty,counter-certainty,uncertainty,preference,opposition,indifference,focus sensitivity,gradability wrt decl,ignorance/belief wrt int,gradability wrt int,Q-to-P veridicality,Q-to-P distributivity,P-to-Q distributivity
+japanese,認める mitome-ru,accept,assessment,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,,,,,
+japanese,否定する hitee suru,deny,assessment,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,,,,,
+japanese,望む nozom-u,hope,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,always,incompatible,incompatible,1,undecided,,,,,
+japanese,祈る inor-u,pray,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,always,incompatible,incompatible,1,0,,,,,
+japanese,好む konom-u,prefer,bouletic,typically veridical,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,always,incompatible,incompatible,1,1,,,,,
+japanese,たい -tai / 欲しい hosi-i,want,bouletic,neither,neither,neither,neither,typically neg-raising,compatible,compatible,compatible,compatible,compatible,compatible,always,incompatible,incompatible,1,1,,,,,
+japanese,心配する sinpai suru,be worried,bouletic: negative,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,1,neither,1,0,0,1
+japanese,恐れる osore-ru,fear,bouletic: negative,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,1,,,,,
+japanese,発表する happyoo suru,announce,communication,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,1,1
+japanese,論じる ronzi-ru,argue,communication,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,1,1
+japanese,断言する dangen suru,assert,communication,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,neither,0,0,1,1
+japanese,主張する syutyoo suru,claim,communication,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,1,1
+japanese,文句を言う monku-o i-u,complain,communication,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,1,1
+japanese,説明する setumee suru,explain,communication,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,1,1
+japanese,知らせる sir-ase-ru,inform,communication,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,1,1
+japanese,伝える tutae-ru,tell,communication,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,1,1
+japanese,囁く sasayak-u,whisper,communication: manner of saying,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,neither,0,0,1,1
+japanese,書く kak-u,write,communication: manner of saying,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,neither,0,0,1,1
+japanese,決める  kime-ru,decide,decision,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,1,1
+japanese,要求する yookyuu suru,demand,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,,,,,
+japanese,命令する meeree suru,order,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,,,,,
+japanese,提案する teean suru,propose,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,1,1
+japanese,一致する itti suru,agree with someone (indirect object) [stative: to be in agreement (rather than to reach agreement)],doxastic,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,neither,1,0,1,1
+japanese,仮定する katee suru,assume,doxastic,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,1,1
+japanese,確信する kakusin suru,be certain,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,undecided,belief,undecided,0,1,1
+japanese,確信する kakusin suru,be convinced,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,undecided,belief,undecided,0,1,1
+japanese,知らない sir-ana-i,be unaware,doxastic,veridical,contradictory,redundant,projective,0,incompatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,undecided,neither,1,1,1,1
+japanese,信じる sinzi-ru,believe,doxastic,neither,neither,neither,neither,typically neg-raising,always,incompatible,incompatible,compatible,incompatible,compatible,compatible,compatible,compatible,0,undecided,,,,,
+japanese,期待する kitai suru,expect,doxastic,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,always,incompatible,incompatible,1,1,,,,,
+japanese,知っている sit-tei-ru,know,doxastic,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,belief,0,1,1,1
+japanese,疑う utaga-u,suspect,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,compatible,incompatible,compatible,compatible,compatible,compatible,1,undecided,neither,undecided,0,0,1
+japanese,思う omo-u,think,doxastic,neither,neither,neither,neither,typically neg-raising,always,incompatible,incompatible,compatible,incompatible,compatible,compatible,compatible,compatible,0,0,,,,,
+japanese,正しい tadasi-i,be right,doxastic evaluative,,,,,,,,,,,,,,,,,,,,,
+japanese,間違う matiga-u,be wrong,doxastic evaluative,,,,,,,,,,,,,,,,,,,,,
+japanese,忘れる forget,forget,doxastic: change of state,typically veridical,neither,neither,typically projective,0,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,0,ignorance,0,1,1,1
+japanese,知る sir-u,learn,doxastic: change of state,typically veridical,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,0,belief,0,0,1,1
+japanese,疑う utaga-u,doubt,dubitative,neither,neither,neither,neither,0,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,undecided,,,,,
+japanese,嬉しい uresi-i,be happy,emotive factive,typically veridical,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,always,incompatible,incompatible,1,1,belief,1,0,1,1
+japanese,驚く odorok-u,be surprised,emotive factive,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,belief,1,0,1,1
+japanese,後悔する kookai suru,regret,emotive factive,neither,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,1,belief,1,1,1,1
+japanese,聞く kik-u　訊く,,inquisitive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,,,
+japanese,興味を持つ kyoomi-o mot-u,be curious,inquisitive,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,incompatible,1,1,neither,1,0,0,1
+japanese,尋ねる tazune-ru,inquire,inquisitive,,,,,,,,,,,,,,,,,neither,0,,,
+japanese,調べる sirabe-ru,investigate,inquisitive,,,,,,,,,,,,,,,,,neither,0,,,
+japanese,不思議に思う husigi-ni omo-u,wonder,inquisitive,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,incompatible,1,1,neither,1,0,0,1
+japanese,見る mi-ru,see,perception,typically veridical,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,,,
+japanese,気にする ki-ni suru,care,predicates of relevance,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,incompatible,1,1,neither,1,0,0,1
+japanese,証明する syoomei suru,prove,ratification,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,1,1

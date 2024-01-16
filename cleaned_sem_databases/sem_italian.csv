@@ -1,0 +1,49 @@
+language,predicate,English translation,predicate class,veridicality,conjoined with negation,conjoined with complement,projection through negation,neg-raising,likelihood,unlikelihood,equal likelihood,certainty,counter-certainty,uncertainty,preference,opposition,indifference,focus sensitivity,gradability wrt decl,ignorance/belief wrt int,gradability wrt int,Q-to-P veridicality,Q-to-P distributivity,P-to-Q distributivity
+italian,accettare,accept,assessment,typically veridical,neither,redundant,typically projective,0,typically,incompatible,compatible,typically,incompatible,compatible,compatible,compatible,compatible,1,undecided,,,,,
+italian,negare,deny,assessment,neither,neither,neither,neither,0,compatible,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,1,1,,,,,
+italian,sperare,hope,bouletic,neither,neither,neither,neither,0,compatible,compatible,typically,incompatible,incompatible,always,always,incompatible,incompatible,1,1,,,,,
+italian,pregare,pray,bouletic,neither,neither,neither,neither,0,compatible,compatible,typically,incompatible,incompatible,always,always,incompatible,incompatible,1,undecided,,,,,
+italian,preferire,prefer,bouletic,neither,neither,neither,neither,typically neg-raising,compatible,compatible,typically,incompatible,incompatible,always,always,incompatible,incompatible,1,1,,,,,
+italian,volere,want ,bouletic,neither,neither,neither,neither,typically neg-raising,compatible,compatible,typically,incompatible,incompatible,always,always,incompatible,incompatible,1,undecided,,,,,
+italian,essere preoccupat* / preoccuparsi ,be worried,bouletic: negative,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,incompatible,always,incompatible,1,1,neither,1,0,1,1
+italian,temere,fear,bouletic: negative,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,incompatible,always,incompatible,1,1,,,,,
+italian,annunciare,announce,communication,typically veridical,neither,redundant,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,0,belief,0,0,1,1
+italian,affermare,assert,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,0,,,,,
+italian,sostenere,claim,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,undecided,,,,,
+italian,lamentarsi,complain***  [neg],communication,veridical,contradictory,redundant,projective,0,typically,incompatible,compatible,typically,incompatible,compatible,incompatible,always,incompatible,1,1,belief,1,1,1,1
+italian,spiegare,explain,communication,typically veridical,neither,redundant,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,undecided,belief,undecided,0,1,1
+italian,comunicare/informare,inform,communication,typically veridical,neither,redundant,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,0,belief,0,0,1,1
+italian,raccontare,tell ,communication,typically veridical,neither,redundant,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,0,0,belief,1,0,1,1
+italian,sussurrare ,whisper,communication: manner of saying,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,0,belief,0,0,1,1
+italian,scrivere,write,communication: manner of saying,typically veridical,neither,redundant,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,0,belief,0,0,1,1
+italian,decidere,decide,decision,neither,neither,neither,neither,0,typically,compatible,compatible,typically,incompatible,compatible,typically,compatible,compatible,1,0,belief,0,0,1,1
+italian,esigere,demand,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,always,incompatible,incompatible,1,1,,,,,
+italian,ordinare,order,directive,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,incompatible,compatible,1,0,,,,,
+italian,proporre,propose,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,always,incompatible,incompatible,1,0,,,,,
+italian,essere d'accordo (su),agree with someone (indirect object) [stative: to be in agreement (rather than to reach agreement)],doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,belief,1,0,1,1
+italian,supporre ,assume,doxastic,neither,neither,neither,neither,1,always,incompatible,incompatible,compatible,incompatible,typically,compatible,compatible,compatible,0,0,,,,,
+italian,essere cert*,be certain,doxastic,typically veridical,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,belief,1,0,1,1
+italian,essere convint* ,be convinced,doxastic,typically veridical,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,belief,1,0,1,1
+italian,essere inconsapevole,be unaware,doxastic,veridical,contradictory,redundant,projective,0,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,undecided,ignorance,undecided,1,1,1
+italian,credere,believe,doxastic,neither,neither,neither,neither,1,always,incompatible,incompatible,compatible,incompatible,compatible,compatible,compatible,compatible,0,1,,,,,
+italian,aspettarsi ,expect,doxastic,neither,neither,neither,neither,1,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,1,0,,,,,
+italian,sapere ,know,doxastic,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,belief,undecided,1,1,1
+italian,sospettare ,suspect,doxastic,neither,neither,neither,neither,typically neg-raising,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,1,1,,,,,
+italian,pensare ,think,doxastic,neither,neither,neither,neither,typically neg-raising,always,incompatible,incompatible,compatible,incompatible,typically,compatible,compatible,compatible,0,undecided,,,,,
+italian,avere ragione ,be right,doxastic evaluative,veridical,contradictory,redundant,typically reversal,undecided,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,belief,0,1,1,1
+italian,sbagliarsi ,be wrong,doxastic evaluative,anti-veridical,redundant,contradictory,typically projective,undecided,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,belief,undecided,0,1,1
+italian,dimenticarsi ,forget,doxastic: change of state,veridical,contradictory,redundant,projective,0,compatible,compatible,compatible,incompatible,incompatible,always,compatible,compatible,compatible,1,0,neither,0,0,1,1
+italian,apprendere ,learn,doxastic: change of state,typically veridical,neither,redundant,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,belief,0,0,1,1
+italian,dubitare ,doubt,dubitative,neither,neither,neither,neither,typically neg-raising,incompatible,typically,compatible,incompatible,typically,compatible,compatible,compatible,compatible,1,1,neither,1,0,0,0
+italian,essere content*,be happy,emotive factive,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,always,incompatible,incompatible,1,1,belief,1,1,1,1
+italian,essere sorpres*,be surprised,emotive factive,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,belief,1,1,1,1
+italian,rimpiangere/rammaricarsi,regret,emotive factive,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,1,,,,,
+italian,chiedere ,ask,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,undecided,,,
+italian,essere curios*,be curious,inquisitive,,,,,,,,,,,,,,,,,ignorance,1,,,
+italian,domandare,inquire,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,undecided,,,
+italian,indagare,investigate,inquisitive,,,,,,,,,,,,,,,,,ignorance,1,,,
+italian,chiedersi,wonder,inquisitive,,,,,,,,,,,,,,,,,ignorance,undecided,,,
+italian,vedere,see,perception,veridical,contradictory,redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,belief,0,1,1,1
+italian,importare (qualcosa a qualcuno) ,care ,predicates of relevance,typically veridical,contradictory,redundant,projective,0,compatible,compatible,typically,always,incompatible,incompatible,compatible,compatible,incompatible,1,1,ignorance,1,0,0,0
+italian,dimostrare ,prove ,ratification,typically veridical,contradictory,redundant,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,belief,0,0,0,1
+italian,dire,say,communication,typically veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,0,belief,undecided,0,1,1

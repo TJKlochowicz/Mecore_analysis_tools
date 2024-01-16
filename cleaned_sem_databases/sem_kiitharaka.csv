@@ -1,0 +1,49 @@
+language,predicate,English translation,predicate class,veridicality,conjoined with negation,conjoined with complement,projection through negation,neg-raising,likelihood,unlikelihood,equal likelihood,certainty,counter-certainty,uncertainty,preference,opposition,indifference,focus sensitivity,gradability wrt decl,ignorance/belief wrt int,gradability wrt int,Q-to-P veridicality,Q-to-P distributivity,P-to-Q distributivity
+Kîîtharaka,îtîgîra,accept,assessment,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,1,typically belief,1,0,1,1
+Kîîtharaka,kaana,deny,assessment,typically veridical,neither,neither,typically projective,0,compatible,typically,compatible,compatible,typically,compatible,compatible,compatible,typically,1,1,typically belief,1,0,1,1
+Kîîtharaka,îrîgîîra,hope,bouletic,neither,neither,neither,neither,typically neg-raising,always,incompatible,incompatible,incompatible,incompatible,always,always,incompatible,incompatible,1,1,typically belief,1,0,1,1
+Kîîtharaka,romba,pray,bouletic,neither,neither,neither,neither,0,typically,compatible,compatible,compatible,compatible,typically,typically,compatible,compatible,1,1,typically belief,1,0,1,1
+Kîîtharaka,,prefer,bouletic,,,,,,,,,,,,,,,,,,,,,
+Kîîtharaka,enda,"want ",bouletic,neither,neither,neither,neither,1,compatible,compatible,typically,compatible,compatible,typically,always,incompatible,incompatible,1,1,,,,,
+Kîîtharaka,maka,be worried,bouletic:negative,neither,neither,neither,typically projective,0,typically,compatible,compatible,typically,incompatible,compatible,incompatible,always,incompatible,1,1,typically belief,1,0,0,1
+Kîîtharaka,kuthûka,fear,bouletic:negative,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,always,incompatible,1,1,typically belief,1,0,1,1
+Kîîtharaka,tûmîîria,announce,communication,typically veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,1,typically belief,1,0,1,1
+Kîîtharaka,,argue,communication,,,,,,,,,,,,,,,,,,,,,
+Kîîtharaka,kinyîîria,assert,communication,typically veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,1,typically belief,1,0,1,1
+Kîîtharaka,uga,claim,communication,typically veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,0,typically belief,0,0,1,1
+Kîîtharaka,raramîka,complain,communication,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,typically,compatible,1,1,typically belief,1,0,1,1
+Kîîtharaka,ereeca,explain,communication,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,1,typically belief,1,0,1,1
+Kîîtharaka,menyithia,inform,communication,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,0,typically belief,0,0,1,1
+Kîîtharaka,îra,"tell ",communication,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,0,typically belief,0,0,1,1
+Kîîtharaka,ciîkîîria,whisper,communication: manner of saying,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,0,typically belief,0,0,1,1
+Kîîtharaka,andîka,write,communication: manner of saying,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,1,typically belief,0,0,1,1
+Kîîtharaka,banga,decide,decision,typically veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,typically,compatible,compatible,1,1,typically belief,1,0,1,1
+Kîîtharaka,,demand,communication,,,,,,,,,,,,,,,,,,,,,
+Kîîtharaka,atha/athana,order,directive,typically anti-veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,typically,compatible,incompatible,0,1,typically belief,0,0,1,1
+Kîîtharaka,,propose,directive,,,,,,,,,,,,,,,,,,,,,
+Kîîtharaka,Gwatanîra,agree with someone (indirect object) [stative: to be in agreement (rather than to reach agreement)],doxastic,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,1,typically belief,0,0,1,1
+Kîîtharaka,,assume,doxastic,,,,,,,,,,,,,,,,,,,,,
+Kîîtharaka,-rî na ûmma,be certain,doxastic,typically veridical,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,typically,0,1,belief,0,1,1,1
+Kîîtharaka,kûrithika,be convinced,doxastic,typically veridical,neither,neither,neither,0,typically,incompatible,compatible,always,incompatible,incompatible,compatible,compatible,typically,0,1,belief,0,0,1,1
+Kîîtharaka,,be unaware,doxastic,,,,,,,,,,,,,,,,,,,,,
+Kîîtharaka,îtîgîa,believe,doxastic,typically veridical,neither,neither,typically projective,typically neg-raising,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,typically,0,1,belief,1,0,1,1
+Kîîtharaka,îrîgîîra,expect,doxastic,neither,neither,neither,neither,typically neg-raising,typically,incompatible,compatible,compatible,incompatible,compatible,always,incompatible,incompatible,0,1,belief,1,0,1,1
+Kîîtharaka,menya,know,doxastic,typically veridical,neither,neither,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,typically,1,1,belief,0,0,1,1
+Kîîtharaka,,suspect,doxastic,,,,,,,,,,,,,,,,,,,,,
+Kîîtharaka,thûgaania,think,doxastic,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,compatible,compatible,typically,0,1,typically ignorance,0,0,1,1
+Kîîtharaka,kûgwata,"be right ",doxastic: eavaluative,veridical,contradictory,redundant,reversal,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,0,typically belief,0,1,1,1
+Kîîtharaka,Kûbîtia,be wrong,doxastic:evaluative,anti-veridical,redundant,contradictory,projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,1,1,typically belief,0,0,1,1
+Kîîtharaka,rîganîrua,forget,doxastic:change of state,veridical,contradictory,redundant,typically projective,0,incompatible,compatible,typically,incompatible,compatible,typically,compatible,compatible,typically,1,1,typically ignorance,0,0,1,1
+Kîîtharaka,thooma,learn,doxastic:change of state,typically veridical,neither,neither,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,typically,1,1,belief,0,0,1,1
+Kîîtharaka,,doubt,dubitave,,,,,,,,,,,,,,,,,,,,,
+Kîîtharaka,kena,be happy,emotive factive,typically veridical,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,always,incompatible,incompatible,1,1,belief,1,0,1,1
+Kîîtharaka,rigara,be surprised,emotive factive,typically veridical,neither,redundant,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,typically,1,1,belief,1,0,1,1
+Kîîtharaka,kwîrira,regret,emotive factive,typically veridical,neither,redundant,typically projective,0,typically,incompatible,compatible,typically,incompatible,compatible,incompatible,always,incompatible,1,1,belief,1,0,1,1
+Kîîtharaka,ûria,ask,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+Kîîtharaka,,be curious,inguisitive,,,,,,,,,,,,,,,,,,,,,
+Kîîtharaka,ûrithîria,inquire,inguisitive,,,,,,,,,,,,,,,,,typically ignorance,1,,,
+Kîîtharaka,cûnkûûna,investigate,inguisitive,,,,,,,,,,,,,,,,,typically ignorance,1,,,
+Kîîtharaka,rigara,wonder,inquisitive,,,,,,,,,,,,,,,,,ignorance,1,,,
+Kîîtharaka,ona,see,perception,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,typically,0,1,typically belief,0,0,1,1
+Kîîtharaka,menyeera,care,predicate of relevance,typically veridical,neither,neither,neither,0,typically,compatible,compatible,compatible,compatible,typically,always,incompatible,incompatible,1,1,typically belief,1,0,0,1
+Kîîtharaka,onania,prove,ratification,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,typically,compatible,compatible,0,1,typically belief,1,0,1,1
