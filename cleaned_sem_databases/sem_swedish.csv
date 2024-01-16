@@ -1,0 +1,53 @@
+language,predicate,English translation,predicate class,veridicality,conjoined with negation,conjoined with complement,projection through negation,neg-raising,likelihood,unlikelihood,equal likelihood,certainty,counter-certainty,uncertainty,preference,opposition,indifference,focus sensitivity,gradability wrt decl,ignorance/belief wrt int,gradability wrt int,Q-to-P veridicality,Q-to-P distributivity,P-to-Q distributivity
+swedish,acceptera,accept,assessment,typically veridical,neither,typically redundant,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,1,belief,undecided,0,1,1
+swedish,förneka,deny,assessment,typically veridical,neither,neither,typically projective,0,compatible,typically,compatible,compatible,typically,compatible,compatible,typically,compatible,1,1,,0,,,
+swedish,hoppas,hope,bouletic,neither,neither,neither,neither,typically neg-raising,compatible,compatible,compatible,compatible,compatible,typically,always,incompatible,incompatible,1,1,,,,,
+swedish,be,pray,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,typically,typically,compatible,compatible,1,0,,,,,
+swedish,föredra,prefer,bouletic,typically veridical,neither,typically redundant,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,always,incompatible,incompatible,1,1,,,,,
+swedish,vilja,want ,bouletic,neither,neither,neither,neither,typically neg-raising,compatible,compatible,compatible,compatible,compatible,typically,always,incompatible,incompatible,1,1,,,,,
+swedish,vara orolig + för,be worried,bouletic: negative,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,incompatible,always,incompatible,always,incompatible,1,1,neither,1,0,0,1
+swedish,vara orolig + över,be worried,bouletic: negative / emotive factive,veridical,contradictory,redundant,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,1,neither,1,0,0,0
+swedish,frukta,fear,bouletic: negative,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,incompatible,always,incompatible,1,1,,,,,
+swedish,tillkännage,announce,communication,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+swedish,argumentera,argue,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,typically,compatible,compatible,1,1,typically belief,1,0,1,1
+swedish,hävda,assert,communication,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,typically,compatible,compatible,1,1,,,,,
+swedish,påstå,claim,communication,typically anti-veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,typically,compatible,compatible,1,0,,,,,
+swedish,klaga,complain,communication,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,typically,compatible,1,1,typically belief,1,0,1,1
+swedish,förklara,explain,communication,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+swedish,informera,inform,communication,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+swedish,berätta,tell ,communication,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+swedish,viska,whisper,communication: manner of saying,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+swedish,skriva,write,communication: manner of saying,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+swedish,bestämma,decide,decision,typically veridical,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,typically,compatible,compatible,1,0,belief,0,0,1,1
+swedish,kräva,demand,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,typically,compatible,compatible,1,1,,,,,
+swedish,beordra,order,directive,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,typically,compatible,compatible,1,0,,,,,
+swedish,föreslå,propose,directive,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,typically,typically,compatible,compatible,1,0,,,,,
+swedish,hålla med någon,agree with someone (indirect object) [stative: to be in agreement (rather than to reach agreement)],doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,belief,1,0,1,1
+swedish,anta,assume,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,incompatible,incompatible,always,compatible,compatible,compatible,1,0,,,,,
+swedish,vara säker,be certain,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,belief,1,0,1,1
+swedish,vara övertygad,be convinced,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,belief,1,0,1,1
+swedish,vara omedveden,be unaware,doxastic,veridical,contradictory,redundant,projective,0,incompatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,undecided,neither,undecided,1,1,1
+swedish,tro,believe,doxastic,neither,neither,neither,neither,typically neg-raising,always,incompatible,incompatible,typically,incompatible,always,compatible,compatible,compatible,0,0,,,,,
+swedish,förvänta sig,expect,doxastic,neither,neither,neither,neither,typically neg-raising,always,incompatible,incompatible,incompatible,incompatible,always,compatible,compatible,compatible,1,1,,,,,
+swedish,veta,know,doxastic,veridical,contradictory,redundant,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,undecided,belief,0,1,0,1
+swedish,misstänka,suspect,doxastic,neither,neither,neither,neither,0,typically,compatible,compatible,incompatible,incompatible,always,compatible,compatible,compatible,1,1,,,,,
+swedish,tänka,think,doxastic,neither,neither,neither,neither,typically neg-raising,,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,,,,,
+swedish,tänka på,think about,doxastic,typically veridical,neither,redundant,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,ignorance,0,0,0,0
+swedish,ha rätt,be right ,doxastic evaluative,veridical,contradictory,redundant,reversal,0,typically,compatible,compatible,typically,compatible,compatible,typically,compatible,compatible,0,undecided,belief,0,1,1,1
+swedish,ha fel,be wrong,doxastic evaluative,anti-veridical,redundant,contradictory,typically projective,0,always,incompatible,incompatible,typically,incompatible,compatible,typically,compatible,compatible,1,undecided,belief,0,0,1,1
+swedish,glömma,forget,doxastic: change of state,veridical,contradictory,redundant,typically projective,0,compatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,undecided,typically ignorance,undecided,1,1,1
+swedish,lära sig,learn,doxastic: change of state,neither,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+swedish,tvivla,doubt,dubitative,neither,neither,neither,neither,0,incompatible,always,incompatible,incompatible,compatible,always,compatible,compatible,compatible,1,1,ignorance,1,0,0,1
+swedish,vara glad,be happy,emotive factive,typically veridical,neither,typically redundant,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,always,incompatible,incompatible,1,undecided,belief,undecided,0,1,1
+swedish,vara förvånad,be surprised,emotive factive,typically veridical,neither,typically redundant,typically projective,0,typically,compatible,incompatible,typically,compatible,incompatible,compatible,compatible,compatible,1,1,typically belief,1,0,1,1
+swedish,ångra,regret,emotive factive,typically veridical,neither,typically redundant,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,1,,,,,
+swedish,fråga,ask,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+swedish,vara nyfiken (sense 1),be curious 1,inquisitive,typically veridical,neither,redundant,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,typically,compatible,incompatible,1,1,ignorance,1,0,0,0
+swedish,vara nyfiken (sense 2),be curious 2,inquisitive,,,,,,,,,,,,,,,,,ignorance,1,,,
+swedish,höra sig för,inquire,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+swedish,undersöka,investigate,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+swedish,undra,wonder,inquisitive,,,,,,,,,,,,,,,,,ignorance,1,,,
+swedish,undra över,"wonder at, be surprised",inquisitive (Q) / emotive factive (D),typically veridical,neither,typically redundant,typically projective,0,typically,compatible,incompatible,typically,compatible,compatible,compatible,compatible,compatible,1,1,ignorance,1,,,
+swedish,se,see,perception,veridical,neither,typically redundant,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+swedish,bry sig,care,predicates of relevance,,,,typically projective,0,,,,,,,,,,1,1,,1,,,
+swedish,bevisa,prove,ratification,veridical,contradictory,redundant,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,0,belief,0,1,1,1

@@ -1,0 +1,61 @@
+language,predicate,English translation,predicate class,veridicality,conjoined with negation,conjoined with complement,projection through negation,neg-raising,likelihood,unlikelihood,equal likelihood,certainty,counter-certainty,uncertainty,preference,opposition,indifference,focus sensitivity,gradability wrt decl,ignorance/belief wrt int,gradability wrt int,Q-to-P veridicality,Q-to-P distributivity,P-to-Q distributivity
+turkish,kabul et,accept,assessment,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,0
+turkish,inkar et,deny,assessment,neither,neither,neither,typically projective,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,1,1,0
+turkish,um,hope,bouletic,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,1,ignorance,undecided,0,0,0
+turkish,,pray,,,,,,,,,,,,,,,,,,,,,,
+turkish,dile,wish,bouletic,neither,neither,neither,neither,typically neg-raising,compatible,compatible,compatible,incompatible,incompatible,always,always,incompatible,incompatible,1,1,,,,,
+turkish,tercih et,prefer,bouletic,neither,neither,neither,neither,typically neg-raising,compatible,compatible,compatible,compatible,compatible,compatible,always,incompatible,incompatible,1,0,,,,,
+turkish,iste,want ,bouletic,typically anti-veridical,neither,neither,neither,1,compatible,compatible,compatible,compatible,compatible,typically,always,incompatible,incompatible,1,1,,,,,
+turkish,endişelen,worry ,bouletic: negative,neither,neither,neither,typically projective,0,compatible,compatible,compatible,compatible,incompatible,typically,incompatible,always,incompatible,1,1,neither,1,0,0,1
+turkish,,be worried,,,,,,,,,,,,,,,,,,,,,,
+turkish,kork,fear,bouletic: negative,neither,neither,neither,neither,0,compatible,compatible,compatible,incompatible,incompatible,always,incompatible,always,incompatible,1,1,neither,1,0,0,1
+turkish,ilan et,announce,communication,neither,neither,neither,typically projective,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,0
+turkish,savun,argue (=defend),communication,neither,neither,neither,typically projective,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+turkish,,assert,,,,,,,,,,,,,,,,,,,,,,
+turkish,de,say,,neither,neither,neither,neither,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,0,0
+turkish,iddia et,claim,communication,neither,neither,neither,typically projective,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,undecided,typically belief,0,0,1,1
+turkish,şikayet et,complain 1,communication,typically veridical,neither,typically redundant,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,undecided,typically belief,undecided,1,1,0
+turkish,sikayetçi ol,complain 2,,neither,neither,neither,projective,0,typically,compatible,compatible,typically,incompatible,compatible,incompatible,always,incompatible,1,1,belief,1,0,1,0
+turkish,açıkla,explain,communication,neither,neither,neither,typically projective,0,typically,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+turkish,bildir,inform,communication,neither,neither,neither,typically projective,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,0
+turkish,söyle,tell ,communication,neither,neither,neither,typically projective,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,0,0,typically belief,0,0,1,1
+turkish,fısılda,whisper,communication: manner of saying,neither,neither,neither,typically projective,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,1,0
+turkish,yaz,write,communication: manner of saying,neither,neither,neither,typically projective,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,1,0
+turkish,karar ver + mA,decide (directive),decision,neither,neither,neither,neither,0,typically,compatible,compatible,compatible,incompatible,typically,typically,compatible,compatible,1,0,,,,,
+turkish,karar ver + dIk,decide (conclude),,neither,neither,neither,neither,0,typically,incompatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+turkish,,demand,directive,,,,,,,,,,,,,,,,,,,,,
+turkish,emret,order,directive,neither,neither,neither,neither,0,typically,compatible,compatible,compatible,compatible,typically,typically,compatible,compatible,1,0,,,,,
+turkish,öner + mA,propose,directive,neither,neither,neither,neither,1,compatible,compatible,compatible,compatible,compatible,typically,typically,compatible,compatible,1,0,,,,,
+turkish,öner + dIk,propose,directive,neither,neither,neither,neither,0,typically,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,1
+turkish,katıl- + dIk,agree with someone (indirect object) [stative: to be in agreement (rather than to reach agreement)],,typically veridical,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,undecided,belief,undecided,1,1,1
+turkish,katıl- + mA,agree with someone (indirect object) [stative: to be in agreement (rather than to reach agreement)],doxastic,typically veridical,neither,neither,typically projective,0,compatible,compatible,compatible,compatible,compatible,compatible,always,compatible,compatible,1,1,,,,,
+turkish,varsay-,assume,doxastic,neither,neither,neither,neither,0,typically,compatible,compatible,compatible,compatible,typically,compatible,compatible,compatible,1,0,belief,0,0,1,1
+turkish,emin ol,be certain,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,belief,1,0,1,1
+turkish,ikN/A ol-,be*come* convinced,doxastic,neither,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,belief,1,1,1,1
+turkish,farkinda ol,be aware,,veridical,contradictory,redundant,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,1,belief,1,1,1,1
+turkish,farkinda olma-,be uN/Aware,doxastic,typically veridical,contradictory,neither,projective,undecided,incompatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,1,typically ignorance,1,1,1,0
+turkish,san-,believe 1 (think),doxastic,typically anti-veridical,neither,neither,neither,1,always,incompatible,incompatible,compatible,incompatible,compatible,compatible,compatible,compatible,0,0,,,,,
+turkish,iN/An-,believe 2 (trust),doxastic,neither,neither,neither,typically projective,0,always,incompatible,incompatible,compatible,incompatible,compatible,compatible,compatible,compatible,0,1,belief,1,1,1,0
+turkish,bekle-,expect,doxastic,neither,neither,neither,neither,1,always,incompatible,incompatible,compatible,incompatible,typically,compatible,compatible,compatible,0,0,,,,,
+turkish,bil- + nomiN/Alization,know,doxastic,typically veridical,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,0,0,belief,0,1,1,0
+turkish,bil- + diye clause,know,doxastic,neither,neither,neither,neither,0,always,incompatible,incompatible,compatible,incompatible,compatible,compatible,compatible,compatible,0,0,,,,,
+turkish,şüphelen-,suspect,doxastic,neither,neither,neither,typically projective,0,always,incompatible,incompatible,incompatible,incompatible,always,compatible,compatible,compatible,1,1,,,,,
+turkish,düşün-,think,doxastic evaluative,neither,neither,neither,neither,typically neg-raising,always,incompatible,incompatible,compatible,incompatible,compatible,compatible,compatible,compatible,0,0,ignorance,0,0,0,0
+turkish,haklı ol-,be right ,doxastic evaluative,veridical,contradictory,neither,typically reversal,0,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,0,undecided,belief,undecided,1,1,1
+turkish,yanıl-,be wrong,doxastic: change of state,anti-veridical,neither,contradictory,typically projective,0,always,incompatible,incompatible,typically,incompatible,compatible,compatible,compatible,compatible,1,undecided,belief,undecided,0,1,1
+turkish,unut,forget,doxastic: change of state,veridical,contradictory,redundant,projective,0,incompatible,compatible,compatible,incompatible,compatible,compatible,compatible,compatible,compatible,1,0,ignorance,0,1,1,1
+turkish,öğren-,learn = find out,dubitative,typically veridical,neither,typically redundant,typically projective,0,typically,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,belief,0,1,1,0
+turkish,öğren-,"learn, e.g., at school",,neither,neither,neither,typically projective,0,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,compatible,1,0,neither,0,0,1,1
+turkish,şüpheli ol-,doubt,emotive factive,neither,neither,neither,neither,0,incompatible,typically,compatible,incompatible,compatible,typically,compatible,compatible,compatible,1,1,belief,1,0,1,0
+turkish,sevin-,rejoice,,typically veridical,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,always,incompatible,incompatible,1,1,belief,1,0,1,1
+turkish,şaşır-,be surprised,emotive factive,typically veridical,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,compatible,compatible,compatible,1,1,belief,1,0,1,1
+turkish,pişman ol-,regret,inquisitive,typically veridical,neither,neither,typically projective,0,always,incompatible,incompatible,always,incompatible,incompatible,incompatible,always,incompatible,1,1,belief,1,0,1,1
+turkish,sor-,ask,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,0,,,
+turkish,,be curious,inquisitive,,,,,,,,,,,,,,,,,,,,,
+turkish,,inquire,inquisitive,,,,,,,,,,,,,,,,,,,,,
+turkish,araştır-,investigate,inquisitive,,,,,,,,,,,,,,,,,typically ignorance,1,,,
+turkish,merak et-,wonder,perception,,,,,,,,,,,,,,,,,ignorance,1,,,
+turkish,gör- + nomiN/Alization,see,predicates of relevance,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,1,1,0
+turkish,gör- + diye clause,see,predicates of relevance,neither,neither,neither,neither,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,,,,,
+turkish,umursa-,care,ratification,veridical,contradictory,neither,projective,0,always,incompatible,incompatible,always,incompatible,incompatible,always,incompatible,incompatible,1,1,neither,1,0,0,1
+turkish,kanıtla,prove,,typically veridical,neither,neither,typically projective,0,typically,compatible,compatible,typically,compatible,compatible,compatible,compatible,compatible,1,0,typically belief,0,0,1,0

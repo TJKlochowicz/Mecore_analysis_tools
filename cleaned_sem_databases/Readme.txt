@@ -20,3 +20,13 @@ To ensure uniformity the following simplifications were made:
     ii. If the predicate accepts both declarative and subjunctive complements and the value of the cell is the same for both, then this value is used. 
     iii. If the predicate accepts both declarative and subjunctive complements, and one of them have value "typically..." and the other "neither" or "non-neg-raising" or "typically..." then the latter value is used.
     iv. If the predicate accepts both declarative and subjunctive complements, and they have values different then in (iii) then the value is "undecided".
+
+6. Swedish database distinguishes for some properties between two readings of the verb 'think': "have a thought" and  "belief opinion". The latter is used, as it os closer to the readings of the other databses. 
+    The believe version with pa was chosen, as it os closer to the readings of the other databses
+    vara nyfiken (be courious) - the two senses were divided into two predicates.
+
+7. In the turkish database the term 'slightly odd' was used it was replaced with 'neither'. For agree the second interpretatioon was chosen.
+
+8. Q-to-P anti-veridical is given value 0 in Q-to-P veridicality.
+
+9. typically Q-to-P and P-to-Q were treated as not distributive/veridical
