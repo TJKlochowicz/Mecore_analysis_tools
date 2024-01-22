@@ -562,6 +562,7 @@ class HypothesesFinder:
                                 textual.append((X.columns[model.tree_.feature[node]], f"1"))
                         index+=1
                     text_branches.append(textual)
+            text_branches =  sorted(text_branches, key=lambda x: x[-1][-1],reverse=True)
         else:
             for branch in all_branches:
                 textual = []
@@ -591,7 +592,7 @@ class HypothesesFinder:
                 if hypothesis_found:
                     text_branches.append(textual)
 
-
+            text_branches =  sorted(text_branches, key=lambda x: x[-1][-2],reverse=True)
         return text_branches
     
     #Removes hypotheses that predict behaviour of less than LIMIT_OF_SAMPLES predicates
@@ -726,6 +727,10 @@ class HypothesesFinder:
             for branch in branches:
                 if branch not in hypotheses:
                     hypotheses.append(branch)
+        if exception_size == 0:
+            hypotheses =  sorted(hypotheses, key=lambda x: x[-1][-1],reverse=True)
+        else:
+            hypotheses =  sorted(hypotheses, key=lambda x: x[-1][-2],reverse=True)
         return hypotheses
     
 # TO DO: Look at the sets of predicates and display the hypotheses which explain the same set of predicates or have a hypothesis that explain their superset.
