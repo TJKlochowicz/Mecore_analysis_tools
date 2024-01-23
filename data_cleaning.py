@@ -28,7 +28,7 @@ PROBLEMATIC_WORDS = ['implex', 'implead', 'implete'] #Remove words that cause in
 DESCRIPTIVE_COLUMNS = len(CORRECT_DESCRIPTIVE_COLUMN_NAMES) #How many first columns are descriptive.
 
 LIMIT_OF_SAMPLES = 2 # Hypotheses, which explain this or lower number of samples are not output by the alghoritm. 
-MAXIMAL_NUMBER_OF_PROPERTIES = 5 #Maximal number of properties, which can constiture a hypothesis. 
+MAXIMAL_NUMBER_OF_PROPERTIES = 4 #Maximal number of properties, which can constiture a hypothesis. 
 
 class ValuesExtractor:
     def __init__(self):
@@ -524,7 +524,7 @@ class HypothesesFinder:
 
     # Returns branches of a tree in textual form: list of lists of pairs (property, threashold) ending with a pair (label, number of samples.) e.g. 
     #       [[('Complement projection/reversion through negation_neither', '> 0.5'),('Preference_incompatible', '<= 0.5'), ('responsive', 13)], ...]
-    def retreive_text_branches(self, model, X, exception_size :int = 0):
+    def retreive_text_branches(self, model, X, y, exception_size :int = 0, exception_indexes=False):
         self.n_nodes = model.tree_.node_count
         self.children_left = model.tree_.children_left
         self.children_right = model.tree_.children_right
@@ -581,7 +581,17 @@ class HypothesesFinder:
                         class_name = np.argmax(value) #Returns the indices of the maximum values along an axis.
                         if model.tree_.n_classes[0] != 1 and model.tree_.n_outputs == 1:
                             class_name = class_names[class_name]
-                        textual.append((class_name, int(max(model.tree_.value[node][0])), f'exceptions: {exc}'))
+                        if exception_indexes:
+                            exc_ind=[]
+                            node_indicator = model.decision_path(X)
+                            for x in X.index:
+                                node_index = node_indicator.indices[
+                                node_indicator.indptr[x] : node_indicator.indptr[x + 1]]
+                                if node in node_index and y.iloc[x] != class_name:
+                                    exc_ind.append(x)
+                            textual.append((class_name, int(max(model.tree_.value[node][0])), f'exceptions: {exc}', f'exception_indexes: {exc_ind}'))
+                        else:
+                            textual.append((class_name, int(max(model.tree_.value[node][0])), f'exceptions: {exc}'))
                     #For decision nodes take the feature (property) on which it splits and the threshold value for that property. 
                     if node != branch[-1]:
                         if branch[index+1] == model.tree_.children_left[node]:
@@ -702,7 +712,7 @@ class HypothesesFinder:
         
     # Discover new hypotheses in a database using a (non-random) forest based method. You can investigate the discovered hypotheses looking at their decision trees, and checking conjunctively.
     #TO DO: make this predictive
-    def forest_based_discovery(self, X, y, limit :int=MAXIMAL_NUMBER_OF_PROPERTIES, exception_size :int= 0):
+    def forest_based_discovery(self, X, y, limit :int=MAXIMAL_NUMBER_OF_PROPERTIES, exception_size :int= 0, exception_indexes=False):
         # Check if limit is feasible.
         if limit == 0:
             print("You need to consider hypotheses of lenght at least 1")
@@ -722,7 +732,7 @@ class HypothesesFinder:
             model = DecisionTreeClassifier(max_depth=limit+1)
             model.fit(X[list(properties)],y)
             # Recover the branches of the tree from that model, which end with pure leafs. Remove hypotheses that explain less than LIMIT_OF_SAMPLES predicates.
-            branches = self.retreive_text_branches(model, X[list(properties)], exception_size = exception_size)
+            branches = self.retreive_text_branches(model, X[list(properties)], y, exception_size = exception_size, exception_indexes=exception_indexes)
             branches = self.remove_overfitting(branches)
             for branch in branches:
                 if branch not in hypotheses:
