@@ -103,6 +103,8 @@ The **data_cleaning.py** file allows to verify hypotheses about the behaviour of
 
 *forest_based_discovery(X, y, limit :int=MAXIMAL_NUMBER_OF_PROPERTIES,  exception_size :int = 0)* takes data frame (X) and a label (y) from the same database. For each subset of properties in X of size smaller than *limit* returns all the hypotheses that allow to predict values of more than *LIMIT OF SAMPLES* predicates in y. If *exception_size* > 0 adds also the number of exceptions in a given node of the hypothesis if it is smaller or equal to *exception_size* (also when there are no exceptions).
 
+*pruning_based_discovery(self, df, X, y, limit :int=MAXIMAL_NUMBER_OF_PROPERTIES, exception_size :int= 0, exception_indexes=False)* returns a set of hypotheses. 
+
 *find_semantic_relations(X)* Retuns the list of all the implications between semantic properties in X. i.e. with properties as keys and properties they imply as values e.g. "{('Certainty_always', 0)": [["Uncertainty_incompatible","0"]] ...}
 
 *df = eliminate_redundant_hypotheses(hypotheses, implications: dict)* takes a set of hypotheses (output of *forest_based_discovery*) and a list of implications (output of *find_semantic_relations*) and eliminate hypotheses which are redundant according to the implications. WARNIING: only order matters! The eliminated hypotheses may provide better explanation then those which remain. 
