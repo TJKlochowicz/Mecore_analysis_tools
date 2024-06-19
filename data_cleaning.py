@@ -23,7 +23,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 
 CORRECT_DESCRIPTIVE_COLUMN_NAMES = ['language', 'predicate', 'English translation', 'predicate class'] #Default: [predicate, english translation, predicate class]
-SPECIFIC_WORDS = ['implies', 'anti-veridical'] #Add non-standard/domain specific words to treat them as non-typos.
+SPECIFIC_WORDS = ['implies', 'anti-veridical', 'neg-raising'] #Add non-standard/domain specific words to treat them as non-typos.
 PROBLEMATIC_WORDS = ['implex', 'implead', 'implete'] #Remove words that cause incorrect behaviour.
 DESCRIPTIVE_COLUMNS = len(CORRECT_DESCRIPTIVE_COLUMN_NAMES) #How many first columns are descriptive.
 
@@ -98,18 +98,26 @@ class DataCleaner:
             if column not in self.correct_column_names:
                 df = df.drop(column, axis=1)
         return df
-
+    
+    def inted(self, value):
+        try:
+            int(value)
+            return int(value)
+        except:
+            return None
 
     def check_names(self,df, semantic_only=False):
         fixed = True
         error = 0
         if semantic_only:
-            correct_names = self.semantic_values_of_columns
+            correct_names = CORRECT_DESCRIPTIVE_COLUMN_NAMES + list(self.semantic_values_of_columns.keys())
         else:
             correct_names = self.correct_column_names
         print(f"The databse has {len(df.columns)} columns and {len(df.index)} rows.")
         listed_column_names = df.columns.tolist()
-        if listed_column_names == self.correct_column_names:
+        # print(correct_names)
+        # print(listed_column_names)
+        if listed_column_names == correct_names:
             print("Columns are named correctly!")
             return 0
         else:
@@ -244,7 +252,7 @@ class DataCleaner:
         for column in df.columns[DESCRIPTIVE_COLUMNS:]:
             column_index = df.columns.get_loc(column)
             for value in df[column].value_counts().index.tolist():
-                if value not in self.values_of_columns[column]:
+                if value not in self.values_of_columns[column] and self.inted(value) not in self.values_of_columns[column] and str(self.inted(value)) not in self.values_of_columns[column]:
                     if pd.isna(value) or value =='':
                         print(f"There are {df[column].value_counts()[value]} empty cells in the column '{column}'")
                     else:
@@ -253,8 +261,7 @@ class DataCleaner:
                         while incorrect_input:
                             agreed = input("Would you like to replace all these values with a correct one? (y/n): ")
                             if agreed.lower().strip()[0] == 'y':
-                                print(f"The specified values for this column are:{self.values_of_columns[column]}")
-                                new_value = input("Provide the correct value: ").strip().lower()
+                                new_value = input(f"The specified values for this column are:{self.values_of_columns[column]} \n \n " + "Provide the correct value: ").strip().lower()
                                 if new_value in self.values_of_columns[column]:
                                     for i in range(df.shape[0]):
                                         if df.iat[i,column_index] == value:
@@ -420,6 +427,27 @@ class DataExtractor:
        'concealed q', "Intransitive use"]
 
 # Extracting parts of the database
+    def get_semantic_mecore(self, df):
+        sem=df
+        sem['label'] = sem['ignorance/belief wrt int'].fillna('anti-rogative')
+        for value in self.values_of_columns['ignorance/belief wrt int']:
+            sem['label'] = sem['label'].replace(value, 'responsive')
+        #Drop other columns which are not defined for both anti-rogatives and responsive
+        sem = sem.drop(['ignorance/belief wrt int','gradability wrt int', 'Q-to-P veridicality', 'Q-to-P distributivity', 'P-to-Q distributivity'], axis =1) 
+        #Drop rogative predicates
+        sem = sem.dropna()
+        print(sem['label'].value_counts())
+        sem = sem.reset_index()
+        sem = sem.drop('index', axis=1)
+        return sem
+
+
+    def get_binary_column_names(self, df, column_name:str):
+        #Get values of the column i.
+        values = list(df[column_name].value_counts().index)
+        return [f'{column_name}_{value}' for value in values]
+
+
 
     def get_semantic_properties(self, df):
         semantic_df = df.drop(self.selectional_properties, axis=1)
@@ -464,6 +492,17 @@ class DataExtractor:
                         pass
         X = pd.get_dummies(X)
         return X
+    def remove_typically(self, df):
+            for i in range(df.shape[0]): #iterate over rows
+                for j in range(df.shape[1]): #iterate over columns
+                    try:
+                        if df.iat[i,j].split(' ')[0] == 'typically':
+                            if len(X.iat[i,j].split(' ')) > 1:
+                                df.iat[i,j] = 'neither'
+                            else:
+                                df.iat[i,j] = 'compatible'
+                    except AttributeError:
+                        pass
     
 # Tree based method to analyse databases
 class HypothesesFinder:
@@ -637,7 +676,7 @@ class HypothesesFinder:
         return hypotheses_list
     
     #Check if a conjunction of properties consitiute a hypothesis. If subsets=True checks also all the subsets of properties
-    def conjunctive_check(self, X, y, properties: list, subsets=False, printing=True):
+    def conjunctive_check(self, X, y, properties: list, subsets=False, printing=True, exception_size :int= 0):
         results = False
         if len(properties) > MAXIMAL_NUMBER_OF_PROPERTIES:
             print(f"The maximal number of properties considered as a hypothesis is {MAXIMAL_NUMBER_OF_PROPERTIES}. Provide less properties!")
@@ -838,3 +877,57 @@ class HypothesesFinder:
             branch.append((name,value))
         branch.append((conjunction["label"], len(conjunction["predicates"])))
         return branch
+   
+    def pruning_based_discovery(self, df, X, y, limit :int=MAXIMAL_NUMBER_OF_PROPERTIES, exception_size :int= 0, exception_indexes=False):
+        # Check if limit is feasible.
+        if limit == 0:
+            print("You need to consider hypotheses of lenght at least 1")
+            return []
+        if limit == 1:
+            print("This tool is not useful for hypotheses of lenght 1. Performing individual check.")
+            output = self.individual_check(X, y)
+            return output
+        if limit > MAXIMAL_NUMBER_OF_PROPERTIES:
+            print(f"The maximal number of properties considered as a hypothesis is {MAXIMAL_NUMBER_OF_PROPERTIES}. Provide less properties!")
+
+        #The pruning alghoritm
+        found_something = True
+        X_limitted = X
+        hypos = []
+        while found_something:
+            model = DecisionTreeClassifier(max_depth= 4)
+            model.fit(X_limitted,y)
+            # Recover the branches of the tree from that model, which end with pure leafs. Remove hypotheses that explain less than LIMIT_OF_SAMPLES predicates.
+            branches = self.retreive_text_branches(model, X_limitted, y, exception_size=exception_size, exception_indexes=exception_indexes)
+            branches = self.remove_overfitting(branches)
+            if branches == []:
+                found_something = False
+            for branch in branches:
+                if branch not in hypos:
+                    hypos.append(branch)
+            # plt.figure(figsize=(12,8), dpi=200)
+            # plot_tree(model, feature_names=X.columns, filled=True);
+            X_limitted = X_limitted.drop(X_limitted.columns[model.tree_.feature[0]], axis=1)
+        return sorted(hypos, key=lambda x: x[-1][1],reverse=True) 
+    
+    def sort_hyp(self, hypotheses, ordering = 'ratio'):
+        if ordering == 'ratio':
+            return sorted(hypotheses, key = lambda x: int(x[-1][-2].split(': ')[-1])/x[-1][-3])
+        if ordering == 'min_ratio':
+            for h in hypotheses:
+                min_ratio = 1
+                for x in h:
+                    if x[-2].split(': ')[0] == 'exceptions':
+                        ratio = int(x[-2].split(': ')[-1])/x[-3]
+                        if ratio < min_ratio:
+                            min_ratio = ratio
+                h.append(min_ratio)
+            return sorted(hypotheses, key = lambda x: x[-1])
+
+
+
+        else: 
+            print('Invalid sorting')
+            return hypotheses
+
+        
